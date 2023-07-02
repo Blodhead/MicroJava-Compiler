@@ -45,7 +45,7 @@ U nastavku teksta su navedeni i opisani projektni zahtevi za implementaciju leks
 –	kolonu (poziciju prvog znaka) u kojoj je detektovana greška.
 	Obavezno je korišćenje jdk 1.8 kao što je opisano u primerima na vežbama.
 
-II	Sintaksna analiza (maks. 7 poena)
+II	Sintaksna analiza 
 
 Opšti tehnički zahtevi 
 
@@ -76,7 +76,7 @@ Implementacija parsera
 Dozvoljeno je dodavati uslužne metode ili polja u code {: :} sekciju AST-CUP specifikacije parsera isključivo za prijavljivanje i/ili oporavak od sinktasnih grešaka.
 	Napisati klasu rs.ac.bg.etf.pp1.Compiler na programskom jeziku Java sa funkcijom glavnog programa main koja pokreće parsiranje Mikrojava programa. U slučaju uspešnog parsiranja, ispisuje strukturu sintaksnog stabla kako je opisano u zahtevima.
 	Putanja do ulaznog fajla sa Mikrojava izvornim kodom prosleđuje se glavnom programu klase Compiler kao prvi argument komandne linije.
-Oporavak od grešaka (maks. 3 poena)
+Oporavak od grešaka
 	U AST-CUP specifikaciju gramatike TREBA dodati smene i akcije za oporavak od grešaka. Implementirati oporavak od grešaka za sledeće jezičke elemente:
 
  
