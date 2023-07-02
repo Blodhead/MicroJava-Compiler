@@ -1,145 +1,40 @@
- 
+Project - MicroJava Compiler - README
+Introduction
+The goal of this project is to implement a compiler for the MicroJava programming language. The compiler translates syntactically and semantically correct MicroJava programs into MicroJava bytecode that can be executed on the MicroJava virtual machine. Syntactically and semantically correct MicroJava programs are defined by the specification [MJ].
 
+The MicroJava compiler has four main functionalities: lexical analysis, syntax analysis, semantic analysis, and code generation.
 
-Projekat
-– Kompajler za Mikrojavu –
+The lexical analyzer is responsible for recognizing the language lexemes and returning a set of tokens extracted from the source code, which are further processed in the syntax analysis. If a lexical error is detected during the lexical analysis, an appropriate error message should be displayed.
 
- 
-1.	Uvod
- 
+The syntax analyzer determines whether the extracted tokens from the program's source code can form grammatically correct sentences. During the parsing of MicroJava programs, it is necessary to enable tracking of the parsing process in a way that will be described in detail later in the document. After parsing syntactically correct MicroJava programs, the user should be notified of the success of the parsing. If the source code has syntax errors, an appropriate explanation of the detected syntax error should be issued, and the parsing should continue after error recovery.
 
-Cilj projektnog zadatka je realizacija kompajlera za programski jezik Mikrojavu. Kompajler omogućava prevodjenje sintaksno i semantički ispravnih Mikrojava programa u Mikrojava bajtkod koji se izvršava na virtuelnoj mašini za Mikrojavu. Sintaksno i semantički ispravni Mikrojava programi su definisani specifikacijom [MJ]. \n \n
-Programski prevodilac za Mikrojavu ima četiri osnovne funkcionalnosti: leksičku analizu, sintaksnu analizu, semantičku analizu i generisanje koda./n /n
-Leksički analizator treba da prepoznaje jezičke lekseme i vrati skup tokena izdvojenih iz izvornog koda, koji se dalje razmatraju u okviru sintaksne analize. Ukoliko se tokom leksičke analize detektuje leksička greška, potrebno je ispisati odgovarajuću poruku na izlaz.
-Sintaksni analizator ima zadatak da utvrdi da li izdvojeni tokeni iz izvornog koda programa mogu formiraju gramatički ispravne sentence. Tokom parsiranja Mikrojava programa potrebno je na odgovarajući način omogućiti i praćenje samog procesa parsiranja na način koji će biti u nastavku dokumenta detaljno opisan. Nakon parsiranja sintaksno ispravnih Mikrojava programa potrebno je obavestiti korisnika o uspešnosti parsiranja. Ukoliko izvorni kod ima sintaksne greške, potrebno je izdati adekvatno objašnjenje o detektovanoj sintaksnoj grešci, izvršiti oporavak i nastaviti parsiranje.
-Semantički analizator se formira na osnovu apstraktnog sintaksnog stabla koje je nastalo kao rezultat sintaksne analize. Semantička analiza se sprovodi implementacijom metoda za posećivanje čvorova apstraktnog sintaksnog stabla. Stablo je formirano na osnovu gramatike implementirane u prethodnoj fazi. Ukoliko izvorni kod ima semantičke greške, potrebno je prikazati adekvatnu poruku o detektovanoj semantičkoj grešci.
-Generator koda prevodi sintaksno i semantički ispravne programe u izvršni oblik za odabrano izvršno okruženje Mikrojava VM. Generisanje koda se implementira na sličan način kao i semantička analiza, implementacijom metoda koje posećuju čvorove.
- 
+The semantic analyzer is constructed based on the abstract syntax tree (AST) that is generated as a result of the syntax analysis. Semantic analysis is performed by implementing methods for visiting the nodes of the AST. The AST is constructed based on the grammar implemented in the previous phase. If the source code has semantic errors, an appropriate message about the detected semantic error should be displayed.
 
- 
-2.	Specifikacija zahteva
- 
-I	Leksička analiza 
-U nastavku teksta su navedeni i opisani projektni zahtevi za implementaciju leksičkog analizatora.
+The code generator translates syntactically and semantically correct programs into executable form for the chosen MicroJava VM execution environment. Code generation is implemented in a similar way to semantic analysis, by implementing methods that visit the nodes.
 
-	Potrebno je realizovati leksički analizator (skener) izvornih programa napisanih na jeziku Mikrojava.
-	Leksički analizator se implementira pisanjem .flex specifikacije, čiji format je detljano opisan u prezentacijama primera domaćih zadataka sa sajta predmeta.
-	Specifikacija leksičkog analizatora mora da se smesti u fajl [PT]/src/spec/mjlexer.flex.
-	Specifikacija .flex se transformiše u implementaciju leksera na programskom jeziku Java korišćenjem alata JFlex sa sajta predmeta.
-	Generisana klasa leksičkog analizatora mora da pripada paketu rs.ac.bg.etf.pp1 u okviru direktorijuma [PT]/src.
-	Interfejs leksičkog analizatora prema sintaksnom analizatoru mora biti standardni CUP interfejs. Za više informacija, pogledati primer mini domaćeg u vežbama na sajtu predmeta.
-	Skener prihvata fajl za izvornim kodom na jeziku Mikrojava i deli ga na tokene.
-	Token se vraća eksplicitnim pozivom leksičkog analizatora (operacija next_token()). Potrebno je detektovati i obraditi sledeće leksičke strukture:
-–	identifikatore,
-–	konstante,
-–	ključne reči,
-–	operatore,
-–	komentare.
-	Leksičke strukture implementirati prema specifikaciji jezika [MJ§A.2p3].
-	Leksički analizator treba da preskače komentare i "beline" u tekstu programa.
-	Pod "belinama" se smatraju: tabulatori (\t), prelazak u novi red (\r \n), razmak (' '), backspace (\b), prelazak na novu stranu (\f, form feed).
-	U slučaju leksičke greške, ispisuje se greška i nastavlja se obrada teksta programa.
-	Poruka o grešci treba da sadrži sledeće informacije:
-–	niz znakova koji nije prepoznat,
-–	broj linije teksta programa u kojoj se desila greška, i
-–	kolonu (poziciju prvog znaka) u kojoj je detektovana greška.
-	Obavezno je korišćenje jdk 1.8 kao što je opisano u primerima na vežbama.
+Requirements Specification
+I. Lexical Analysis
+The following are the project requirements for implementing the lexical analyzer:
 
-II	Sintaksna analiza 
-
-Opšti tehnički zahtevi 
-
-	Gramatika jezika Mikrojava mora biti napisana u skladu sa specifikacijom jezika definisanom u [MJ].
-	Za implementaciju parsera mora se koristiti generator sintaksnih analizatora AST-CUP (u nastavku teksta: AST-CUP generator). AST-CUP generator je lokalno razvijeno proširenje alata CUP za rad sa sintaksnim stablima.
-	Mora se koristiti instalacija alata isključivo sa sajta predmeta (biblioteka cup_v10k.jar).
- 
-	Gramatička specifikacija parsera mora biti napisana u CUP fajlu, u formatu koji AST-CUP generator prepoznaje (u nastavku teksta: AST-CUP specifikacija).
-	AST-CUP specifikacija mora da se smestu u fajl [PT]/src/spec/mjparser.cup.
-	Sintaksni analizator mora biti integrisan sa CUP kompatibilnim leksičkim analizatorom za jezik Mikrojava.
-	U slučaju uspešnog parsiranja ulaznog fajla parser na kraju rada na standardnom izlazu prikazuje apstraktno sintaksno stablo pozivom funkcije toString() nad korenom stabla (videti primer mini domaćeg).
-	Parser treba da omogući oporavak od sintaksnih grešaka za zadate jezičke elemente.
-	U slučaju nailaska na sintaksnu grešku parser:
-–	ispisuje poruku greške u log fajl,
-–	vrši oporavak od greške i
-–	nastavlja sa parsiranjem ostatka fajla.
-	Opis sintaksne greške TREBA da sadrži:
-–	broj linije ulaznog programa u kojoj je greška detektovana (videti realizaciju u primeru mini domaćeg sa sajta predmeta),
-–	nedvosmislen opis greške.
-Implementacija parsera
-
-	Nije dozvoljeno koristiti opciju precedence u .cup fajlu za definisanje prioriteta operatora. Izuzetak je korišćenje direktive precedence left ELSE; koja se može koristiti da se razreši konflikt između smena za if iskaz (statement) sa else delom i if iskaz bez else dela.
-	Neterminali u AST-CUP specifikaciji moraju biti imenovani na način kako je to propisano zadatom specifikacijom [MJ] uz eventualno dodavanje sopstvenih neterminale, ukoliko se za tim ukaže potreba.
-	Svakoj produkciji mora se zadati jedinstveni naziv na osnovu kojeg AST-CUP generator generiše Java klasu koja reprezentuje deo podstabla koji odgovara toj produkciji.
-	Na osnovu AST-CUP specifikacije AST-CUP generator proizvodi standardnu CUP specifikaciju i geneiše klase elemenata sintaksnog stabla.
-	Dobijena CUP specifikacija mora biti smeštena u fajl [PT]/src/spec/mjparser_astbuild.cup. Generisane klase apstr. sint. stabla moraju biti smeštene u paket rs.ac.bg.etf.pp1.ast u okviru direktorijuma [PT]/src.
-	Uz izuzetak prijave sintaksnih grešaka, nije dozvoljeno ubacivati nikakve druge akcije u AST- CUP specifikaciju parsera {: :}.
-Dozvoljeno je dodavati uslužne metode ili polja u code {: :} sekciju AST-CUP specifikacije parsera isključivo za prijavljivanje i/ili oporavak od sinktasnih grešaka.
-	Napisati klasu rs.ac.bg.etf.pp1.Compiler na programskom jeziku Java sa funkcijom glavnog programa main koja pokreće parsiranje Mikrojava programa. U slučaju uspešnog parsiranja, ispisuje strukturu sintaksnog stabla kako je opisano u zahtevima.
-	Putanja do ulaznog fajla sa Mikrojava izvornim kodom prosleđuje se glavnom programu klase Compiler kao prvi argument komandne linije.
-Oporavak od grešaka
-	U AST-CUP specifikaciju gramatike TREBA dodati smene i akcije za oporavak od grešaka. Implementirati oporavak od grešaka za sledeće jezičke elemente:
-
- 
-–	deklaracija polja unutrašnje klase – ignorisati karaktere do prvog ";" ili "{"
-–	deklaracija proširenja natklase – ignorisati znakove do prvog znaka "{".
-Testiranje rada implementiranog parsera:
-	Napisati reprezentativni skup testova sintaksno ispravnih i neispravnih programa i testirati oporavak od grešaka.
-
-III	Semantička analiza
-Format poruke
-	Poruka o detektovanom simbolu MORA da sadrži sledeće podatke (videti Prilog 2):
-–	linija izvornog koda u kojoj je pronađen simbol,
-–	naziv pronađenog simbola,
-–	ispis objektnog čvora iz tabele simbola koji odgovara pronađenom simbolu.
-Testiranja rada implementiranog semantičkog analizatora:
-
-
-IV	Generisanje koda
-Generisanje koda podrazumeva transformaciju sintaksno i semantički ispravnog sintaksnog stabla u bajtkod za izvršno okruženje za MJ virtuelnu mašinu (MJVM).
-
-Opšti zahtevi
-	Generisanje koda vrši se obilaskom apstraktnog sintaksnog stabla koje je nastalo kao rezultat sintaksne analize i zadovoljilo uslove semantičke provere.
-	Potrebno je implementirati klasu rs.ac.bg.etf.pp1.CodeGenerator, koja proširuje automatski generisanu klasu rs.ac.bg.etf.pp1.ast.VisitorAdapter, i u njoj redefinisati medote za obilazak elemenata sintaksnog stabla koji su relevanti za generisanje koda.
-	Nije dozvoljeno implementirati generisanje koda u akcijama {: :} AST-CUP specifikacije parsera, niti klasi parsera dodavati metode niti polja koja obavljaju ili posredno ili neposredno utiču na generisanje koda.
-	Generator koda mora da generiše ispravan bajtkod za MJVM.
-	Za implementaciju generatora koda moraju se koristiti alati Code, disasm i Run. dostupni i biblioteci mj-runtime.jar: 
-	Generisanje koda se pokreće u glavnom programu klase Compiler po završetku semantičke analize i ispisa sadržaja tabele simbola. Implementira se prosleđivanjem objekta klase CodeGenerator korenu sintaksnog stabla.
-	Izlaz generatora koda mora da bude izvršivi .obj fajl za MJVM.
-	Putanja do izlaznog .obj fajla prosleđuje se glavnom programu klase Compiler kao drugi argument komandne linije.
- 
-V	Podela funkcionalnosti
-
-
-DesignatorStatement := Designator "=" Expr.
-DesignatorStatement := "[" [Designator] {"," [Designator]}"]" "=" Designator.
-DesignatorStatement := Designator "++". DesignatorStatement := Designator "--". Statement := DesignatorStatement ";".
-Statement := "read" "(" Designator ")" ";".
-Statement := "print" "(" Expr [“,” numConst] ")" ";". Expr := ["‐"] Term {Addop Term}.
-Term := Factor {Mulop Factor}.
-Factor := numConst | charConst | "(" Expr ")" | boolConst | "new" Type "[" Expr "]"| Designator. Designator := ident [ "[" Expr "]" ].
-Addop := "+" | "‐" .
-Mulop := "*" | "/" | "%".
-
-	Od nizova, treba podržati samo nizove ugrađenih tipova podataka. Program mora da sadrži funkciju main, globalne/lokalne promenljive (proste ili nizovne), globalne konstante. Ne treba obrađivati unutrašnje klase.
-
-
-
-VI	Primer programa:
-program Program
-class A{int x[],y[];} const int pi = 3, e = 2; int a, b;
-class B extends A { int i;
-{
-int getValue(int a) int b; bool c;{ return this.i + this.x[0] + a; } void m()int a;{x.foreach(a => print(a););}
-}
-}
-class C extends B{A theA;int a;}
-{
-void main() A a; C c; int i; int x[]; char ch; { a = new A;
-a.x = new int[5]; a.y = new int[5]; c = new C;
-c.theA = a; c.x = new int[5]; x = new int[3];
-read(c.i); i = 0;
-while(i<5){
-read(c.x[i]); read(c.theA.x[i]); i++;
-}
-[a,,b] = c.x; print(c.getValue(c.theA.x[0])); c.m();
-}
+Implement a lexical analyzer (scanner) for MicroJava source programs.
+The lexical analyzer is implemented by writing a .flex specification, whose format is described in the homework assignment examples on the course website.
+The specification of the lexical analyzer should be placed in the file [PT]/src/spec/mjlexer.flex.
+The .flex specification is transformed into the implementation of the lexer in the Java programming language using the JFlex tool available on the course website.
+The generated lexer class should belong to the package rs.ac.bg.etf.pp1 within the [PT]/src directory.
+The interface between the lexical analyzer and the syntax analyzer should be the standard CUP interface. For more information, refer to the mini homework example in the exercises on the course website.
+The scanner accepts a file containing MicroJava source code and divides it into tokens.
+A token is returned by explicitly calling the lexical analyzer (operation next_token()). The following lexical structures should be detected and processed:
+Identifiers
+Constants
+Keywords
+Operators
+Comments
+Lexical structures should be implemented according to the language specification [MJ§A.2p3].
+The lexical analyzer should skip comments and whitespace in the program text.
+Whitespace characters include: tabs (\t), newline (\r \n), space (' '), backspace (\b), form feed (\f).
+In case of a lexical error, an error message should be displayed, and the program's text processing should continue.
+The error message should contain the following information:
+The unrecognized character sequence
+The line number in the program text where the error occurred
+The column (position of the first character) where the error was detected.
+The use of JDK 1.8 is mandatory, as described in the examples provided.
