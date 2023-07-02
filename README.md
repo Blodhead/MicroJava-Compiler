@@ -1,4 +1,4 @@
-Project - MicroJava Compiler - README
+<h1>Project - MicroJava Compiler - README</h1>
 Introduction
 The goal of this project is to implement a compiler for the MicroJava programming language. The compiler translates syntactically and semantically correct MicroJava programs into MicroJava bytecode that can be executed on the MicroJava virtual machine. Syntactically and semantically correct MicroJava programs are defined by the specification [MJ].
 
