@@ -1,29 +1,8 @@
  
 
-Elektrotehnički fakultet u Beogradu Katedra za računarsku tehniku i informatiku
-
-Predmet:	Programski prevodioci 1 Nastavnik:	dr Dragan Bojić, redovni profesor Asistenti:	mast. inž. Maja Vukasović,
-mast. inž. Mihajlo Ogrizović
-Student:	Ćirković Miloš
-Školska:	2022/2023.
-Datum:	8.12.2022.
-
-
-
-
-
-
-
 
 Projekat
 – Kompajler za Mikrojavu –
-
-
-
-
-
-
- 
 
  
 1.	Uvod
