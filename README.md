@@ -8,8 +8,8 @@ Projekat
 1.	Uvod
  
 
-Cilj projektnog zadatka je realizacija kompajlera za programski jezik Mikrojavu. Kompajler omogućava prevodjenje sintaksno i semantički ispravnih Mikrojava programa u Mikrojava bajtkod koji se izvršava na virtuelnoj mašini za Mikrojavu. Sintaksno i semantički ispravni Mikrojava programi su definisani specifikacijom [MJ].
-Programski prevodilac za Mikrojavu ima četiri osnovne funkcionalnosti: leksičku analizu, sintaksnu analizu, semantičku analizu i generisanje koda.
+Cilj projektnog zadatka je realizacija kompajlera za programski jezik Mikrojavu. Kompajler omogućava prevodjenje sintaksno i semantički ispravnih Mikrojava programa u Mikrojava bajtkod koji se izvršava na virtuelnoj mašini za Mikrojavu. Sintaksno i semantički ispravni Mikrojava programi su definisani specifikacijom [MJ]. \n \n
+Programski prevodilac za Mikrojavu ima četiri osnovne funkcionalnosti: leksičku analizu, sintaksnu analizu, semantičku analizu i generisanje koda./n /n
 Leksički analizator treba da prepoznaje jezičke lekseme i vrati skup tokena izdvojenih iz izvornog koda, koji se dalje razmatraju u okviru sintaksne analize. Ukoliko se tokom leksičke analize detektuje leksička greška, potrebno je ispisati odgovarajuću poruku na izlaz.
 Sintaksni analizator ima zadatak da utvrdi da li izdvojeni tokeni iz izvornog koda programa mogu formiraju gramatički ispravne sentence. Tokom parsiranja Mikrojava programa potrebno je na odgovarajući način omogućiti i praćenje samog procesa parsiranja na način koji će biti u nastavku dokumenta detaljno opisan. Nakon parsiranja sintaksno ispravnih Mikrojava programa potrebno je obavestiti korisnika o uspešnosti parsiranja. Ukoliko izvorni kod ima sintaksne greške, potrebno je izdati adekvatno objašnjenje o detektovanoj sintaksnoj grešci, izvršiti oporavak i nastaviti parsiranje.
 Semantički analizator se formira na osnovu apstraktnog sintaksnog stabla koje je nastalo kao rezultat sintaksne analize. Semantička analiza se sprovodi implementacijom metoda za posećivanje čvorova apstraktnog sintaksnog stabla. Stablo je formirano na osnovu gramatike implementirane u prethodnoj fazi. Ukoliko izvorni kod ima semantičke greške, potrebno je prikazati adekvatnu poruku o detektovanoj semantičkoj grešci.
@@ -78,13 +78,7 @@ Dozvoljeno je dodavati uslužne metode ili polja u code {: :} sekciju AST-CUP sp
 	Putanja do ulaznog fajla sa Mikrojava izvornim kodom prosleđuje se glavnom programu klase Compiler kao prvi argument komandne linije.
 Oporavak od grešaka (maks. 3 poena)
 	U AST-CUP specifikaciju gramatike TREBA dodati smene i akcije za oporavak od grešaka. Implementirati oporavak od grešaka za sledeće jezičke elemente:
-	NIVO A (1 poen):
-–	definicija globalne promenljive – ignorisati karaktere do prvog znaka ";" ili sledećeg ","
-–	konstrukcija iskaza dodele – ignorisati karaktere do ";"
-	NIVO B (2 poena, uključujući i A):
-–	deklaracija formalnog parametra funkcije – ignorisati znakove do znaka "," ili ")"
-–	logički izraz unutar if konstrukcije - ignorisati karaktere do prvog znaka ")"
-	NIVO C (3 poena, uključujući i sve za B):
+
  
 –	deklaracija polja unutrašnje klase – ignorisati karaktere do prvog ";" ili "{"
 –	deklaracija proširenja natklase – ignorisati znakove do prvog znaka "{".
@@ -97,11 +91,8 @@ Format poruke
 –	linija izvornog koda u kojoj je pronađen simbol,
 –	naziv pronađenog simbola,
 –	ispis objektnog čvora iz tabele simbola koji odgovara pronađenom simbolu.
-Provera kontekstnih uslova (Bodovanje: Nivo A - 2, NivoB - 4, NivoC - 6)
-	U klasi SemanticAnalyzer implementirati proveru svih kontekstnih uslova navedenih u specifikaciji [MJ§A.4p5], a predviđenih za odabrani nivo težine.
 Testiranja rada implementiranog semantičkog analizatora:
-	Napisati ulazne fajlove na programskom jeziku Mikrojava koji sadrže sve sintaksno i semantički ispravne MJ programe uz pokrivanje svih smena iz gramatike.
-	Napisati ulazne fajlove na programskom jeziku Mikrojava koji sadrže sve kombinacije semantičkih grešaka.
+
 
 IV	Generisanje koda
 Generisanje koda podrazumeva transformaciju sintaksno i semantički ispravnog sintaksnog stabla u bajtkod za izvršno okruženje za MJ virtuelnu mašinu (MJVM).
@@ -116,7 +107,7 @@ Opšti zahtevi
 	Izlaz generatora koda mora da bude izvršivi .obj fajl za MJVM.
 	Putanja do izlaznog .obj fajla prosleđuje se glavnom programu klase Compiler kao drugi argument komandne linije.
  
-V	Podela funkcionalnosti po nivoima
+V	Podela funkcionalnosti
 
 
 DesignatorStatement := Designator "=" Expr.
