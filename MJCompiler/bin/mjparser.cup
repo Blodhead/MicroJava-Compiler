@@ -1,0 +1,289 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+	boolean errorOccured;
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorOccured = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorOccured = false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, EQUAL, RETURN, COMMA, PRINT, VOID, CONST;
+terminal NEW, MINUSMINUS, PLUSPLUS;
+terminal IF, ELSE, CONTINUE, READ, WHILE, BREAK, OR, AND;
+terminal LSQUARE, RSQUARE;
+terminal PLUS, MINUS, MUL, DIV, MOD;
+terminal SAME, DIFFERENT, GREATER, EGREATER, LESSER, ELESSER;
+
+terminal String IDENT;
+terminal String BOOLEAN;
+terminal String CHAR;
+terminal Integer NUMBER;
+
+nonterminal Label;
+nonterminal DecLine;
+nonterminal VarDeclLine, VarDeclList;
+nonterminal DeclList, OptArray;
+nonterminal ConstLine, ConstDeclList;
+nonterminal MethodDecl, MethodVarDeclList, MethodVarDeclLine;
+nonterminal FormPars, FormParsList, FormParsMore;
+nonterminal StatementList, StatementPrintOpt, StatementElseOpt;
+nonterminal ConditionList, CondTerm, CondFactList, CondFact, CondFactOpt;
+nonterminal AddOp, MulOp, RelOp, AssignOp;
+nonterminal ActParsList, ActPars, ActParsOpt;
+nonterminal FactorPars, FactorDesignatorOpt;
+nonterminal DesignatorSemi, ConstDeclListComma, VarDeclComma;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, VarDecl, ConstDecl, RetTypeName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, DesignatorStatement, DesignatorStatementOpt;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, VarType,DesignatorList, RetType, Expr, Factor, Term, TermList, ExprList, Literals;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct FactorNewType, FactorMatrix, DesignatorOpt, DesignatorStatementList, Condition;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstVal, StatementReturnOpt, Statement, StatementLine, DashOpt;
+
+precedence left ELSE;
+
+Program 				::= (Program) PROG ProgName DeclList LBRACE MethodDecl RBRACE;
+
+ProgName				::=	(ProgName) IDENT:progName;
+
+DeclList				::= (DeclListRec) DeclList DecLine
+						| 	(DeclListEpsilon);
+					
+DecLine					::=	(DecLineVar) VarDeclLine SEMI
+						|   (DecLineConst) ConstLine SEMI
+						|	(DecLineError) error SEMI:l {: parser.report_error("Sintaksna greska definicije globalne promenjive na liniji " + lleft, null); :};
+											
+VarDeclLine				::= (VarDeclLine) VarType VarDeclList;
+
+VarType					::=	(VarType) Type;
+
+VarDeclList				::= (VarDeclRec) VarDeclComma VarDecl
+						|	(VarDeclSingle) VarDecl;
+						
+VarDeclComma			::= (VarDeclCommaNoError) VarDeclList COMMA
+						|	(VarDeclCommaError) error COMMA:l {: parser.report_error("Sintaksna greska definicije globalne promenjive na liniji " + lleft, null); :};
+					
+VarDecl					::= (VarDecl) IDENT:varName OptArray;
+
+OptArray				::=	(Array) LSQUARE RSQUARE
+						|	(Array2D) LSQUARE RSQUARE LSQUARE RSQUARE
+						|	(NoArray);
+
+Type 					::= (Type) IDENT:typeName;
+
+ConstLine				::= (ConstLine) CONST Type ConstDeclList;
+
+ConstDeclList			::= (ConstDeclListRec) ConstDeclListComma ConstDecl
+						|	(ConstDeclListSingle) ConstDecl;
+						
+ConstDeclListComma		::= (ConstDeclListCommaNoError) ConstDeclList COMMA
+						|	(ConstDeclListCommaError) error COMMA:l {: parser.report_error("Sintaksna greska definicije globalne promenjive na liniji " + lleft, null); :};
+
+ConstDecl				::= (ConstDecl) IDENT:constName EQUAL ConstVal;
+
+ConstVal				::= (ConstValNumber) NUMBER
+						|	(ConstValBoolean) BOOLEAN
+						|	(ConstValChar) CHAR;
+			
+MethodDecl				::= (MethodDecl) RetTypeName LPAREN FormPars RPAREN MethodVarDeclList LBRACE StatementLine RBRACE;
+
+RetTypeName				::= (RetTypeName) RetType:retType IDENT:methodName;
+
+RetType					::= (RetTypeType) Type
+						|	(RetTypeVoid) VOID;
+	
+FormPars				::= (FormParsSingle) FormParsList
+						|	(FormParsEpsilon);
+	
+FormParsList			::= (FormParsList) Type VarDecl FormParsMore;
+
+FormParsMore			::= (FormParsMoreSingle) FormParsMore COMMA Type VarDecl
+						|	(FormParsMoreEpsilon);
+					
+MethodVarDeclList		::= (MethodVarDeclListRec) MethodVarDeclList MethodVarDeclLine
+						|	(MethodVarDeclListEpsilon);
+					
+MethodVarDeclLine		::=	(MethodVarDeclLine)	Type:progName VarDeclList SEMI;
+
+StatementLine			::= (StatementLineRec) StatementLine Statement
+						|	(StatementLineEpsilon);
+	
+Statement				::= (StatementDesignator) DesignatorSemi
+						|	(StatementIf) IF LPAREN Condition RPAREN Statement StatementElseOpt
+						|	(StatementWhile) WHILE LPAREN Condition RPAREN Statement
+						|	(StatementBreak) BREAK SEMI
+						|	(StatementContinue) CONTINUE SEMI
+						|	(StatementReturn) RETURN StatementReturnOpt SEMI
+						|	(StatementRead) READ LPAREN Designator RPAREN SEMI
+						|	(StatementPrint) PRINT LPAREN Expr StatementPrintOpt RPAREN SEMI
+						|	(StatementBraces) LBRACE StatementList RBRACE;
+						
+StatementElseOpt		::=	(StatementElseOptSingle) ELSE Statement
+						|	(StatementElseOptEpsilon);
+					
+StatementList			::= (StatementListRec) StatementList Statement
+						|	(StatementListEpsilon);
+					
+StatementReturnOpt		::= (StatementReturnOptSingle) Expr
+						|	(StatementReturnOptEpsilon);
+					
+StatementPrintOpt		::=	(StatementPrintOptSingle) COMMA NUMBER
+						|	(StatementPrintOptEpsilon);
+						
+DesignatorSemi			::= (DesignatorSemiStatement) DesignatorStatement SEMI
+						|	error SEMI:l {: parser.report_error("Sintaksna greska iskaza dodele promenjivoj na liniji " + lleft, null); :};	
+										
+DesignatorStatement 	::= (DesignatorStatementOpt1) DesignatorStatementOpt
+						|	(DesignatorStatementOpt2) LSQUARE DesignatorOpt DesignatorStatementList RSQUARE EQUAL Designator;
+						
+DesignatorOpt			::= (DesignatorOptSingle) Designator
+						|	(DesignatorOptEpsilon);
+					
+DesignatorStatementList	::= (DesignatorStatementListRec) DesignatorStatementList COMMA DesignatorOpt
+						|	(DesignatorStatementEpsilon);
+
+DesignatorStatementOpt	::= (DesignatorStatementOptAssign) Designator AssignOp Expr
+						|	(DesignatorStatementOptActPars) Designator LPAREN ActParsOpt RPAREN
+						|	(DesignatorStatementOptIncrement) Designator PLUSPLUS
+						|	(DesignatorStatementOptDecrement) Designator MINUSMINUS;
+
+Designator				::= (Designator) IDENT:designatorName DesignatorList;
+
+DesignatorList			::=	(DesignatorListDesignator) DesignatorList LSQUARE Expr RSQUARE
+						|	(DesignatorListEpsilon);
+		
+Condition				::= (Condition) CondTerm ConditionList;
+
+ConditionList			::= (ConditionListRec) ConditionList OR CondTerm
+						|	(ConditionListSigma);
+
+CondTerm				::= (CondTerm) CondFact CondFactList;
+
+CondFactList			::= (CondFactListRec) CondFactList AND CondFact
+						|	(CondFacrListEpsilon);
+					
+CondFact				::= (CondFact) Expr CondFactOpt;
+
+CondFactOpt				::= (CondFactOptSingle) RelOp Expr 
+						|	(CondFactOptLambda);
+					
+Expr					::= (Expr) DashOpt Term ExprList;
+
+ExprList				::= (ExprListSingle) ExprList AddOp Term
+						|	(ExprListEpsilon);
+
+Term					::=	(Term) Factor TermList;
+
+TermList				::= (TermListRec) TermList MulOp Factor
+						|	(TermListEpsilon);
+						
+Factor					::= (FactorDesignator) Designator FactorDesignatorOpt
+						|	(FactorLiterals) Literals
+						|	(FactorNew) NEW FactorNewType FactorPars FactorMatrix
+						|	(FactorRec) LPAREN Expr RPAREN;
+						
+FactorMatrix			::=	(FactorMatrixSingle) FactorPars
+						|	(FactorMatrixEpsilon);
+						
+FactorNewType			::=	(FactorNewType) Type:typeName;
+						
+Literals				::= (LiteralsNum) NUMBER:number
+						|	(LiteralsChar) CHAR
+						|	(LiteralsBoolean) BOOLEAN;			
+			
+FactorDesignatorOpt		::= (FactorDesignatorOptSingle) LPAREN ActParsOpt RPAREN
+						|	(FactorDesignatorOptEpsilon);
+					
+FactorPars				::= (FactorParsExpr) LSQUARE Expr RSQUARE
+						|	(FactorParsActPars) LPAREN ActParsOpt RPAREN;
+		
+ActParsOpt				::=	(ActParsOptSingle) ActPars
+						|	(ActParsOptEpsilon);
+
+DashOpt					::= (DashOptSingle) MINUS
+						|	(DashOptLambda);
+
+ActPars					::= (ActPars) Expr ActParsList;
+
+ActParsList				::= (ActParsListRec) ActParsList COMMA Expr
+						|	(ActParsListEpsilon);
+								
+AddOp					::= (AddOpPlus) PLUS
+						|	(AddOpMinus) MINUS;
+					
+MulOp					::= (MulOpMul) MUL
+						|	(MulOpDiv) DIV
+						|	(MulOpMod) MOD;
+					
+RelOp					::= (RelOpEqualSame) SAME
+						|	(RelOpDifferent) DIFFERENT
+						|	(RelOpGreater) GREATER
+						|	(RelOpEGreater) EGREATER
+						|	(RelOpLesser) LESSER
+						|	(RelOpELesser) ELESSER;
+
+AssignOp				::= (AssignOpNoErr) EQUAL;
+
+Label					::= (Label) IDENT;
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

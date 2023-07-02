@@ -1,0 +1,2703 @@
+INFO  20:20:41,053 - Compiling source file: C:\Users\Administrator\Desktop\PROJEKAT PP1\workspace\MJCompiler\test\program.mj
+INFO  20:20:41,107 - #2 program
+INFO  20:20:41,107 - #38 test301
+INFO  20:20:41,107 - #13 const
+INFO  20:20:41,110 - #38 int
+INFO  20:20:41,110 - #38 nula
+INFO  20:20:41,112 - #8 =
+INFO  20:20:41,112 - #41 0
+INFO  20:20:41,113 - #5 ;
+INFO  20:20:41,115 - #13 const
+INFO  20:20:41,115 - #38 int
+INFO  20:20:41,115 - #38 jedan
+INFO  20:20:41,116 - #8 =
+INFO  20:20:41,116 - #41 1
+INFO  20:20:41,116 - #5 ;
+INFO  20:20:41,116 - #13 const
+INFO  20:20:41,117 - #38 int
+INFO  20:20:41,117 - #38 pet
+INFO  20:20:41,117 - #8 =
+INFO  20:20:41,117 - #41 5
+INFO  20:20:41,121 - #5 ;
+INFO  20:20:41,123 - #38 int
+INFO  20:20:41,126 - #38 niz
+INFO  20:20:41,127 - #25 [
+INFO  20:20:41,127 - #26 ]
+INFO  20:20:41,128 - #10 ,
+INFO  20:20:41,130 - #38 niz2
+INFO  20:20:41,130 - #25 [
+INFO  20:20:41,130 - #26 ]
+INFO  20:20:41,130 - #10 ,
+INFO  20:20:41,131 - #38 a
+INFO  20:20:41,131 - #10 ,
+INFO  20:20:41,132 - #38 b
+INFO  20:20:41,132 - #5 ;
+INFO  20:20:41,133 - #38 char
+INFO  20:20:41,134 - #38 nizch
+INFO  20:20:41,134 - #25 [
+INFO  20:20:41,135 - #26 ]
+INFO  20:20:41,136 - #5 ;
+INFO  20:20:41,136 - #38 int
+INFO  20:20:41,136 - #38 mat
+INFO  20:20:41,136 - #25 [
+INFO  20:20:41,137 - #26 ]
+INFO  20:20:41,138 - #25 [
+INFO  20:20:41,138 - #26 ]
+INFO  20:20:41,139 - #5 ;
+INFO  20:20:41,140 - #3 {
+INFO  20:20:41,141 - #12 void
+INFO  20:20:41,141 - #38 main
+INFO  20:20:41,142 - #6 (
+INFO  20:20:41,143 - #7 )
+INFO  20:20:41,143 - #38 int
+INFO  20:20:41,144 - #38 bodovi
+INFO  20:20:41,144 - #5 ;
+INFO  20:20:41,144 - #38 bool
+INFO  20:20:41,146 - #38 bt
+INFO  20:20:41,146 - #5 ;
+INFO  20:20:41,146 - #3 {
+INFO  20:20:41,146 - #38 bodovi
+INFO  20:20:41,147 - #8 =
+INFO  20:20:41,148 - #41 0
+INFO  20:20:41,151 - #5 ;
+INFO  20:20:41,154 - #38 bodovi
+INFO  20:20:41,155 - #16 ++
+INFO  20:20:41,156 - #5 ;
+INFO  20:20:41,156 - #38 bodovi
+INFO  20:20:41,157 - #8 =
+INFO  20:20:41,157 - #38 bodovi
+INFO  20:20:41,157 - #27 +
+INFO  20:20:41,157 - #38 jedan
+INFO  20:20:41,159 - #5 ;
+INFO  20:20:41,159 - #38 bodovi
+INFO  20:20:41,159 - #8 =
+INFO  20:20:41,159 - #38 bodovi
+INFO  20:20:41,159 - #29 *
+INFO  20:20:41,159 - #38 pet
+INFO  20:20:41,161 - #5 ;
+INFO  20:20:41,161 - #38 bodovi
+INFO  20:20:41,161 - #15 --
+INFO  20:20:41,161 - #5 ;
+INFO  20:20:41,161 - #11 print
+INFO  20:20:41,161 - #6 (
+INFO  20:20:41,161 - #38 bodovi
+INFO  20:20:41,161 - #7 )
+INFO  20:20:41,162 - #5 ;
+INFO  20:20:41,162 - #38 niz
+INFO  20:20:41,162 - #8 =
+INFO  20:20:41,163 - #14 new
+INFO  20:20:41,163 - #38 int
+INFO  20:20:41,163 - #25 [
+INFO  20:20:41,164 - #41 3
+INFO  20:20:41,164 - #26 ]
+INFO  20:20:41,164 - #5 ;
+INFO  20:20:41,165 - #38 niz
+INFO  20:20:41,165 - #25 [
+INFO  20:20:41,165 - #38 nula
+INFO  20:20:41,166 - #26 ]
+INFO  20:20:41,166 - #8 =
+INFO  20:20:41,166 - #38 jedan
+INFO  20:20:41,166 - #5 ;
+INFO  20:20:41,166 - #38 niz
+INFO  20:20:41,166 - #25 [
+INFO  20:20:41,166 - #41 1
+INFO  20:20:41,166 - #26 ]
+INFO  20:20:41,167 - #8 =
+INFO  20:20:41,167 - #41 2
+INFO  20:20:41,167 - #5 ;
+INFO  20:20:41,167 - #38 niz
+INFO  20:20:41,167 - #25 [
+INFO  20:20:41,167 - #38 niz
+INFO  20:20:41,167 - #25 [
+INFO  20:20:41,167 - #38 jedan
+INFO  20:20:41,167 - #26 ]
+INFO  20:20:41,168 - #26 ]
+INFO  20:20:41,168 - #8 =
+INFO  20:20:41,169 - #38 niz
+INFO  20:20:41,169 - #25 [
+INFO  20:20:41,170 - #38 niz
+INFO  20:20:41,170 - #25 [
+INFO  20:20:41,171 - #41 0
+INFO  20:20:41,172 - #26 ]
+INFO  20:20:41,172 - #26 ]
+INFO  20:20:41,173 - #29 *
+INFO  20:20:41,173 - #41 3
+INFO  20:20:41,173 - #5 ;
+INFO  20:20:41,173 - #38 bodovi
+INFO  20:20:41,174 - #8 =
+INFO  20:20:41,174 - #38 niz
+INFO  20:20:41,174 - #25 [
+INFO  20:20:41,174 - #41 2
+INFO  20:20:41,174 - #26 ]
+INFO  20:20:41,174 - #30 /
+INFO  20:20:41,175 - #38 niz
+INFO  20:20:41,176 - #25 [
+INFO  20:20:41,176 - #41 0
+INFO  20:20:41,176 - #26 ]
+INFO  20:20:41,176 - #5 ;
+INFO  20:20:41,176 - #11 print
+INFO  20:20:41,176 - #6 (
+INFO  20:20:41,176 - #38 bodovi
+INFO  20:20:41,176 - #7 )
+INFO  20:20:41,177 - #5 ;
+INFO  20:20:41,177 - #11 print
+INFO  20:20:41,177 - #6 (
+INFO  20:20:41,177 - #38 niz
+INFO  20:20:41,177 - #25 [
+INFO  20:20:41,177 - #41 0
+INFO  20:20:41,177 - #26 ]
+INFO  20:20:41,177 - #7 )
+INFO  20:20:41,177 - #5 ;
+INFO  20:20:41,177 - #11 print
+INFO  20:20:41,177 - #6 (
+INFO  20:20:41,177 - #38 niz
+INFO  20:20:41,177 - #25 [
+INFO  20:20:41,177 - #41 1
+INFO  20:20:41,177 - #26 ]
+INFO  20:20:41,177 - #7 )
+INFO  20:20:41,177 - #5 ;
+INFO  20:20:41,177 - #11 print
+INFO  20:20:41,177 - #6 (
+INFO  20:20:41,177 - #38 niz
+INFO  20:20:41,178 - #25 [
+INFO  20:20:41,178 - #41 2
+INFO  20:20:41,178 - #26 ]
+INFO  20:20:41,178 - #7 )
+INFO  20:20:41,178 - #5 ;
+INFO  20:20:41,178 - #38 mat
+INFO  20:20:41,178 - #8 =
+INFO  20:20:41,178 - #14 new
+INFO  20:20:41,178 - #38 int
+INFO  20:20:41,178 - #25 [
+INFO  20:20:41,178 - #41 4
+INFO  20:20:41,178 - #26 ]
+INFO  20:20:41,178 - #25 [
+INFO  20:20:41,178 - #41 5
+INFO  20:20:41,179 - #26 ]
+INFO  20:20:41,179 - #5 ;
+INFO  20:20:41,179 - #20 read
+INFO  20:20:41,179 - #6 (
+INFO  20:20:41,179 - #38 niz
+INFO  20:20:41,179 - #25 [
+INFO  20:20:41,179 - #41 1
+INFO  20:20:41,179 - #26 ]
+INFO  20:20:41,179 - #7 )
+INFO  20:20:41,179 - #5 ;
+INFO  20:20:41,179 - #38 mat
+INFO  20:20:41,179 - #25 [
+INFO  20:20:41,179 - #41 0
+INFO  20:20:41,179 - #26 ]
+INFO  20:20:41,180 - #25 [
+INFO  20:20:41,180 - #41 0
+INFO  20:20:41,180 - #26 ]
+INFO  20:20:41,180 - #8 =
+INFO  20:20:41,182 - #38 mat
+INFO  20:20:41,183 - #25 [
+INFO  20:20:41,183 - #41 0
+INFO  20:20:41,184 - #26 ]
+INFO  20:20:41,185 - #25 [
+INFO  20:20:41,185 - #38 mat
+INFO  20:20:41,186 - #25 [
+INFO  20:20:41,186 - #41 0
+INFO  20:20:41,186 - #26 ]
+INFO  20:20:41,186 - #25 [
+INFO  20:20:41,186 - #41 0
+INFO  20:20:41,186 - #26 ]
+INFO  20:20:41,186 - #26 ]
+INFO  20:20:41,186 - #5 ;
+INFO  20:20:41,186 - #38 mat
+INFO  20:20:41,186 - #25 [
+INFO  20:20:41,186 - #41 0
+INFO  20:20:41,187 - #26 ]
+INFO  20:20:41,187 - #25 [
+INFO  20:20:41,187 - #38 mat
+INFO  20:20:41,187 - #25 [
+INFO  20:20:41,187 - #41 0
+INFO  20:20:41,187 - #26 ]
+INFO  20:20:41,188 - #25 [
+INFO  20:20:41,188 - #41 0
+INFO  20:20:41,188 - #26 ]
+INFO  20:20:41,189 - #26 ]
+INFO  20:20:41,189 - #8 =
+INFO  20:20:41,189 - #41 2
+INFO  20:20:41,189 - #5 ;
+INFO  20:20:41,189 - #38 mat
+INFO  20:20:41,189 - #25 [
+INFO  20:20:41,189 - #41 1
+INFO  20:20:41,189 - #26 ]
+INFO  20:20:41,190 - #25 [
+INFO  20:20:41,190 - #38 jedan
+INFO  20:20:41,190 - #28 -
+INFO  20:20:41,190 - #38 niz
+INFO  20:20:41,191 - #25 [
+INFO  20:20:41,191 - #41 0
+INFO  20:20:41,191 - #26 ]
+INFO  20:20:41,191 - #26 ]
+INFO  20:20:41,192 - #8 =
+INFO  20:20:41,192 - #41 5
+INFO  20:20:41,192 - #5 ;
+INFO  20:20:41,192 - #38 mat
+INFO  20:20:41,192 - #25 [
+INFO  20:20:41,192 - #41 1
+INFO  20:20:41,192 - #26 ]
+INFO  20:20:41,192 - #25 [
+INFO  20:20:41,192 - #41 1
+INFO  20:20:41,192 - #26 ]
+INFO  20:20:41,193 - #8 =
+INFO  20:20:41,193 - #38 mat
+INFO  20:20:41,193 - #25 [
+INFO  20:20:41,193 - #41 0
+INFO  20:20:41,194 - #26 ]
+INFO  20:20:41,194 - #25 [
+INFO  20:20:41,194 - #41 0
+INFO  20:20:41,194 - #26 ]
+INFO  20:20:41,195 - #29 *
+INFO  20:20:41,195 - #38 mat
+INFO  20:20:41,196 - #25 [
+INFO  20:20:41,197 - #41 0
+INFO  20:20:41,198 - #26 ]
+INFO  20:20:41,199 - #25 [
+INFO  20:20:41,200 - #41 1
+INFO  20:20:41,202 - #26 ]
+INFO  20:20:41,203 - #5 ;
+INFO  20:20:41,203 - #11 print
+INFO  20:20:41,203 - #6 (
+INFO  20:20:41,203 - #38 mat
+INFO  20:20:41,203 - #25 [
+INFO  20:20:41,203 - #41 0
+INFO  20:20:41,203 - #26 ]
+INFO  20:20:41,203 - #25 [
+INFO  20:20:41,203 - #41 0
+INFO  20:20:41,203 - #26 ]
+INFO  20:20:41,203 - #7 )
+INFO  20:20:41,204 - #5 ;
+INFO  20:20:41,204 - #11 print
+INFO  20:20:41,204 - #6 (
+INFO  20:20:41,204 - #38 mat
+INFO  20:20:41,204 - #25 [
+INFO  20:20:41,204 - #41 1
+INFO  20:20:41,204 - #26 ]
+INFO  20:20:41,204 - #25 [
+INFO  20:20:41,204 - #41 0
+INFO  20:20:41,204 - #26 ]
+INFO  20:20:41,205 - #7 )
+INFO  20:20:41,205 - #5 ;
+INFO  20:20:41,205 - #11 print
+INFO  20:20:41,205 - #6 (
+INFO  20:20:41,205 - #38 mat
+INFO  20:20:41,205 - #25 [
+INFO  20:20:41,205 - #41 1
+INFO  20:20:41,205 - #26 ]
+INFO  20:20:41,205 - #25 [
+INFO  20:20:41,205 - #41 1
+INFO  20:20:41,205 - #26 ]
+INFO  20:20:41,205 - #7 )
+INFO  20:20:41,205 - #5 ;
+INFO  20:20:41,206 - #38 nizch
+INFO  20:20:41,206 - #8 =
+INFO  20:20:41,206 - #14 new
+INFO  20:20:41,206 - #38 char
+INFO  20:20:41,206 - #25 [
+INFO  20:20:41,206 - #41 3
+INFO  20:20:41,206 - #26 ]
+INFO  20:20:41,206 - #5 ;
+INFO  20:20:41,206 - #38 nizch
+INFO  20:20:41,206 - #25 [
+INFO  20:20:41,206 - #41 0
+INFO  20:20:41,206 - #26 ]
+INFO  20:20:41,206 - #8 =
+INFO  20:20:41,207 - #40 'a'
+INFO  20:20:41,207 - #5 ;
+INFO  20:20:41,207 - #38 nizch
+INFO  20:20:41,207 - #25 [
+INFO  20:20:41,207 - #38 jedan
+INFO  20:20:41,208 - #26 ]
+INFO  20:20:41,208 - #8 =
+INFO  20:20:41,208 - #40 'b'
+INFO  20:20:41,208 - #5 ;
+INFO  20:20:41,208 - #38 nizch
+INFO  20:20:41,208 - #25 [
+INFO  20:20:41,208 - #38 pet
+INFO  20:20:41,210 - #28 -
+INFO  20:20:41,211 - #41 3
+INFO  20:20:41,216 - #26 ]
+INFO  20:20:41,216 - #8 =
+INFO  20:20:41,216 - #40 'c'
+INFO  20:20:41,216 - #5 ;
+INFO  20:20:41,216 - #11 print
+INFO  20:20:41,216 - #6 (
+INFO  20:20:41,216 - #38 nizch
+INFO  20:20:41,216 - #25 [
+INFO  20:20:41,217 - #41 1
+INFO  20:20:41,217 - #26 ]
+INFO  20:20:41,217 - #7 )
+INFO  20:20:41,217 - #5 ;
+INFO  20:20:41,217 - #11 print
+INFO  20:20:41,217 - #6 (
+INFO  20:20:41,217 - #38 nizch
+INFO  20:20:41,217 - #25 [
+INFO  20:20:41,217 - #38 jedan
+INFO  20:20:41,217 - #29 *
+INFO  20:20:41,217 - #41 2
+INFO  20:20:41,217 - #26 ]
+INFO  20:20:41,217 - #7 )
+INFO  20:20:41,219 - #5 ;
+INFO  20:20:41,219 - #38 mat
+INFO  20:20:41,219 - #25 [
+INFO  20:20:41,219 - #41 0
+INFO  20:20:41,219 - #26 ]
+INFO  20:20:41,220 - #25 [
+INFO  20:20:41,220 - #41 0
+INFO  20:20:41,220 - #26 ]
+INFO  20:20:41,220 - #16 ++
+INFO  20:20:41,220 - #5 ;
+INFO  20:20:41,220 - #38 mat
+INFO  20:20:41,220 - #25 [
+INFO  20:20:41,220 - #41 0
+INFO  20:20:41,220 - #26 ]
+INFO  20:20:41,220 - #25 [
+INFO  20:20:41,220 - #41 0
+INFO  20:20:41,220 - #26 ]
+INFO  20:20:41,221 - #15 --
+INFO  20:20:41,221 - #5 ;
+INFO  20:20:41,221 - #20 read
+INFO  20:20:41,221 - #6 (
+INFO  20:20:41,221 - #38 bodovi
+INFO  20:20:41,221 - #7 )
+INFO  20:20:41,221 - #5 ;
+INFO  20:20:41,221 - #38 bodovi
+INFO  20:20:41,221 - #8 =
+INFO  20:20:41,221 - #28 -
+INFO  20:20:41,221 - #38 bodovi
+INFO  20:20:41,223 - #27 +
+INFO  20:20:41,223 - #6 (
+INFO  20:20:41,224 - #38 pet
+INFO  20:20:41,224 - #29 *
+INFO  20:20:41,224 - #38 a
+INFO  20:20:41,224 - #30 /
+INFO  20:20:41,224 - #41 2
+INFO  20:20:41,224 - #28 -
+INFO  20:20:41,224 - #38 jedan
+INFO  20:20:41,224 - #7 )
+INFO  20:20:41,224 - #29 *
+INFO  20:20:41,225 - #38 bodovi
+INFO  20:20:41,225 - #28 -
+INFO  20:20:41,227 - #6 (
+INFO  20:20:41,228 - #41 3
+INFO  20:20:41,228 - #31 %
+INFO  20:20:41,228 - #41 2
+INFO  20:20:41,229 - #27 +
+INFO  20:20:41,229 - #41 3
+INFO  20:20:41,229 - #29 *
+INFO  20:20:41,229 - #41 2
+INFO  20:20:41,229 - #28 -
+INFO  20:20:41,230 - #41 3
+INFO  20:20:41,230 - #7 )
+INFO  20:20:41,230 - #5 ;
+INFO  20:20:41,230 - #11 print
+INFO  20:20:41,230 - #6 (
+INFO  20:20:41,230 - #38 bodovi
+INFO  20:20:41,230 - #7 )
+INFO  20:20:41,230 - #5 ;
+INFO  20:20:41,230 - #4 }
+INFO  20:20:41,230 - #4 }
+INFO  20:20:41,253 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclListRec(
+    DeclListRec(
+      DeclListRec(
+        DeclListRec(
+          DeclListRec(
+            DeclListRec(
+              DeclListEpsilon(
+              ) [DeclListEpsilon]
+              DecLineConst(
+                ConstLine(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclListSingle(
+                    ConstDecl(
+                     nula
+                      ConstValNumber(
+                       0
+                      ) [ConstValNumber]
+                    ) [ConstDecl]
+                  ) [ConstDeclListSingle]
+                ) [ConstLine]
+              ) [DecLineConst]
+            ) [DeclListRec]
+            DecLineConst(
+              ConstLine(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclListSingle(
+                  ConstDecl(
+                   jedan
+                    ConstValNumber(
+                     1
+                    ) [ConstValNumber]
+                  ) [ConstDecl]
+                ) [ConstDeclListSingle]
+              ) [ConstLine]
+            ) [DecLineConst]
+          ) [DeclListRec]
+          DecLineConst(
+            ConstLine(
+              Type(
+               int
+              ) [Type]
+              ConstDeclListSingle(
+                ConstDecl(
+                 pet
+                  ConstValNumber(
+                   5
+                  ) [ConstValNumber]
+                ) [ConstDecl]
+              ) [ConstDeclListSingle]
+            ) [ConstLine]
+          ) [DecLineConst]
+        ) [DeclListRec]
+        DecLineVar(
+          VarDeclLine(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarDeclRec(
+              VarDeclCommaNoError(
+                VarDeclRec(
+                  VarDeclCommaNoError(
+                    VarDeclRec(
+                      VarDeclCommaNoError(
+                        VarDeclSingle(
+                          VarDecl(
+                           niz
+                            Array(
+                            ) [Array]
+                          ) [VarDecl]
+                        ) [VarDeclSingle]
+                      ) [VarDeclCommaNoError]
+                      VarDecl(
+                       niz2
+                        Array(
+                        ) [Array]
+                      ) [VarDecl]
+                    ) [VarDeclRec]
+                  ) [VarDeclCommaNoError]
+                  VarDecl(
+                   a
+                    NoArray(
+                    ) [NoArray]
+                  ) [VarDecl]
+                ) [VarDeclRec]
+              ) [VarDeclCommaNoError]
+              VarDecl(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [VarDecl]
+            ) [VarDeclRec]
+          ) [VarDeclLine]
+        ) [DecLineVar]
+      ) [DeclListRec]
+      DecLineVar(
+        VarDeclLine(
+          VarType(
+            Type(
+             char
+            ) [Type]
+          ) [VarType]
+          VarDeclSingle(
+            VarDecl(
+             nizch
+              Array(
+              ) [Array]
+            ) [VarDecl]
+          ) [VarDeclSingle]
+        ) [VarDeclLine]
+      ) [DecLineVar]
+    ) [DeclListRec]
+    DecLineVar(
+      VarDeclLine(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclSingle(
+          VarDecl(
+           mat
+            Array2D(
+            ) [Array2D]
+          ) [VarDecl]
+        ) [VarDeclSingle]
+      ) [VarDeclLine]
+    ) [DecLineVar]
+  ) [DeclListRec]
+  MethodDecl(
+    RetTypeName(
+      RetTypeVoid(
+      ) [RetTypeVoid]
+     main
+    ) [RetTypeName]
+    FormParsEpsilon(
+    ) [FormParsEpsilon]
+    MethodVarDeclListRec(
+      MethodVarDeclListRec(
+        MethodVarDeclListEpsilon(
+        ) [MethodVarDeclListEpsilon]
+        MethodVarDeclLine(
+          Type(
+           int
+          ) [Type]
+          VarDeclSingle(
+            VarDecl(
+             bodovi
+              NoArray(
+              ) [NoArray]
+            ) [VarDecl]
+          ) [VarDeclSingle]
+        ) [MethodVarDeclLine]
+      ) [MethodVarDeclListRec]
+      MethodVarDeclLine(
+        Type(
+         bool
+        ) [Type]
+        VarDeclSingle(
+          VarDecl(
+           bt
+            NoArray(
+            ) [NoArray]
+          ) [VarDecl]
+        ) [VarDeclSingle]
+      ) [MethodVarDeclLine]
+    ) [MethodVarDeclListRec]
+    StatementLineRec(
+      StatementLineRec(
+        StatementLineRec(
+          StatementLineRec(
+            StatementLineRec(
+              StatementLineRec(
+                StatementLineRec(
+                  StatementLineRec(
+                    StatementLineRec(
+                      StatementLineRec(
+                        StatementLineRec(
+                          StatementLineRec(
+                            StatementLineRec(
+                              StatementLineRec(
+                                StatementLineRec(
+                                  StatementLineRec(
+                                    StatementLineRec(
+                                      StatementLineRec(
+                                        StatementLineRec(
+                                          StatementLineRec(
+                                            StatementLineRec(
+                                              StatementLineRec(
+                                                StatementLineRec(
+                                                  StatementLineRec(
+                                                    StatementLineRec(
+                                                      StatementLineRec(
+                                                        StatementLineRec(
+                                                          StatementLineRec(
+                                                            StatementLineRec(
+                                                              StatementLineRec(
+                                                                StatementLineRec(
+                                                                  StatementLineRec(
+                                                                    StatementLineRec(
+                                                                      StatementLineRec(
+                                                                        StatementLineRec(
+                                                                          StatementLineEpsilon(
+                                                                          ) [StatementLineEpsilon]
+                                                                          StatementDesignator(
+                                                                            DesignatorSemiStatement(
+                                                                              DesignatorStatementOpt1(
+                                                                                DesignatorStatementOptAssign(
+                                                                                  Designator(
+                                                                                   bodovi
+                                                                                    DesignatorListEpsilon(
+                                                                                    ) [DesignatorListEpsilon]
+                                                                                  ) [Designator]
+                                                                                  AssignOpNoErr(
+                                                                                  ) [AssignOpNoErr]
+                                                                                  Expr(
+                                                                                    DashOptLambda(
+                                                                                    ) [DashOptLambda]
+                                                                                    Term(
+                                                                                      FactorLiterals(
+                                                                                        LiteralsNum(
+                                                                                         0
+                                                                                        ) [LiteralsNum]
+                                                                                      ) [FactorLiterals]
+                                                                                      TermListEpsilon(
+                                                                                      ) [TermListEpsilon]
+                                                                                    ) [Term]
+                                                                                    ExprListEpsilon(
+                                                                                    ) [ExprListEpsilon]
+                                                                                  ) [Expr]
+                                                                                ) [DesignatorStatementOptAssign]
+                                                                              ) [DesignatorStatementOpt1]
+                                                                            ) [DesignatorSemiStatement]
+                                                                          ) [StatementDesignator]
+                                                                        ) [StatementLineRec]
+                                                                        StatementDesignator(
+                                                                          DesignatorSemiStatement(
+                                                                            DesignatorStatementOpt1(
+                                                                              DesignatorStatementOptIncrement(
+                                                                                Designator(
+                                                                                 bodovi
+                                                                                  DesignatorListEpsilon(
+                                                                                  ) [DesignatorListEpsilon]
+                                                                                ) [Designator]
+                                                                              ) [DesignatorStatementOptIncrement]
+                                                                            ) [DesignatorStatementOpt1]
+                                                                          ) [DesignatorSemiStatement]
+                                                                        ) [StatementDesignator]
+                                                                      ) [StatementLineRec]
+                                                                      StatementDesignator(
+                                                                        DesignatorSemiStatement(
+                                                                          DesignatorStatementOpt1(
+                                                                            DesignatorStatementOptAssign(
+                                                                              Designator(
+                                                                               bodovi
+                                                                                DesignatorListEpsilon(
+                                                                                ) [DesignatorListEpsilon]
+                                                                              ) [Designator]
+                                                                              AssignOpNoErr(
+                                                                              ) [AssignOpNoErr]
+                                                                              Expr(
+                                                                                DashOptLambda(
+                                                                                ) [DashOptLambda]
+                                                                                Term(
+                                                                                  FactorDesignator(
+                                                                                    Designator(
+                                                                                     bodovi
+                                                                                      DesignatorListEpsilon(
+                                                                                      ) [DesignatorListEpsilon]
+                                                                                    ) [Designator]
+                                                                                    FactorDesignatorOptEpsilon(
+                                                                                    ) [FactorDesignatorOptEpsilon]
+                                                                                  ) [FactorDesignator]
+                                                                                  TermListEpsilon(
+                                                                                  ) [TermListEpsilon]
+                                                                                ) [Term]
+                                                                                ExprListSingle(
+                                                                                  ExprListEpsilon(
+                                                                                  ) [ExprListEpsilon]
+                                                                                  AddOpPlus(
+                                                                                  ) [AddOpPlus]
+                                                                                  Term(
+                                                                                    FactorDesignator(
+                                                                                      Designator(
+                                                                                       jedan
+                                                                                        DesignatorListEpsilon(
+                                                                                        ) [DesignatorListEpsilon]
+                                                                                      ) [Designator]
+                                                                                      FactorDesignatorOptEpsilon(
+                                                                                      ) [FactorDesignatorOptEpsilon]
+                                                                                    ) [FactorDesignator]
+                                                                                    TermListEpsilon(
+                                                                                    ) [TermListEpsilon]
+                                                                                  ) [Term]
+                                                                                ) [ExprListSingle]
+                                                                              ) [Expr]
+                                                                            ) [DesignatorStatementOptAssign]
+                                                                          ) [DesignatorStatementOpt1]
+                                                                        ) [DesignatorSemiStatement]
+                                                                      ) [StatementDesignator]
+                                                                    ) [StatementLineRec]
+                                                                    StatementDesignator(
+                                                                      DesignatorSemiStatement(
+                                                                        DesignatorStatementOpt1(
+                                                                          DesignatorStatementOptAssign(
+                                                                            Designator(
+                                                                             bodovi
+                                                                              DesignatorListEpsilon(
+                                                                              ) [DesignatorListEpsilon]
+                                                                            ) [Designator]
+                                                                            AssignOpNoErr(
+                                                                            ) [AssignOpNoErr]
+                                                                            Expr(
+                                                                              DashOptLambda(
+                                                                              ) [DashOptLambda]
+                                                                              Term(
+                                                                                FactorDesignator(
+                                                                                  Designator(
+                                                                                   bodovi
+                                                                                    DesignatorListEpsilon(
+                                                                                    ) [DesignatorListEpsilon]
+                                                                                  ) [Designator]
+                                                                                  FactorDesignatorOptEpsilon(
+                                                                                  ) [FactorDesignatorOptEpsilon]
+                                                                                ) [FactorDesignator]
+                                                                                TermListRec(
+                                                                                  TermListEpsilon(
+                                                                                  ) [TermListEpsilon]
+                                                                                  MulOpMul(
+                                                                                  ) [MulOpMul]
+                                                                                  FactorDesignator(
+                                                                                    Designator(
+                                                                                     pet
+                                                                                      DesignatorListEpsilon(
+                                                                                      ) [DesignatorListEpsilon]
+                                                                                    ) [Designator]
+                                                                                    FactorDesignatorOptEpsilon(
+                                                                                    ) [FactorDesignatorOptEpsilon]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [TermListRec]
+                                                                              ) [Term]
+                                                                              ExprListEpsilon(
+                                                                              ) [ExprListEpsilon]
+                                                                            ) [Expr]
+                                                                          ) [DesignatorStatementOptAssign]
+                                                                        ) [DesignatorStatementOpt1]
+                                                                      ) [DesignatorSemiStatement]
+                                                                    ) [StatementDesignator]
+                                                                  ) [StatementLineRec]
+                                                                  StatementDesignator(
+                                                                    DesignatorSemiStatement(
+                                                                      DesignatorStatementOpt1(
+                                                                        DesignatorStatementOptDecrement(
+                                                                          Designator(
+                                                                           bodovi
+                                                                            DesignatorListEpsilon(
+                                                                            ) [DesignatorListEpsilon]
+                                                                          ) [Designator]
+                                                                        ) [DesignatorStatementOptDecrement]
+                                                                      ) [DesignatorStatementOpt1]
+                                                                    ) [DesignatorSemiStatement]
+                                                                  ) [StatementDesignator]
+                                                                ) [StatementLineRec]
+                                                                StatementPrint(
+                                                                  Expr(
+                                                                    DashOptLambda(
+                                                                    ) [DashOptLambda]
+                                                                    Term(
+                                                                      FactorDesignator(
+                                                                        Designator(
+                                                                         bodovi
+                                                                          DesignatorListEpsilon(
+                                                                          ) [DesignatorListEpsilon]
+                                                                        ) [Designator]
+                                                                        FactorDesignatorOptEpsilon(
+                                                                        ) [FactorDesignatorOptEpsilon]
+                                                                      ) [FactorDesignator]
+                                                                      TermListEpsilon(
+                                                                      ) [TermListEpsilon]
+                                                                    ) [Term]
+                                                                    ExprListEpsilon(
+                                                                    ) [ExprListEpsilon]
+                                                                  ) [Expr]
+                                                                  StatementPrintOptEpsilon(
+                                                                  ) [StatementPrintOptEpsilon]
+                                                                ) [StatementPrint]
+                                                              ) [StatementLineRec]
+                                                              StatementDesignator(
+                                                                DesignatorSemiStatement(
+                                                                  DesignatorStatementOpt1(
+                                                                    DesignatorStatementOptAssign(
+                                                                      Designator(
+                                                                       niz
+                                                                        DesignatorListEpsilon(
+                                                                        ) [DesignatorListEpsilon]
+                                                                      ) [Designator]
+                                                                      AssignOpNoErr(
+                                                                      ) [AssignOpNoErr]
+                                                                      Expr(
+                                                                        DashOptLambda(
+                                                                        ) [DashOptLambda]
+                                                                        Term(
+                                                                          FactorNew(
+                                                                            FactorNewType(
+                                                                              Type(
+                                                                               int
+                                                                              ) [Type]
+                                                                            ) [FactorNewType]
+                                                                            FactorParsExpr(
+                                                                              Expr(
+                                                                                DashOptLambda(
+                                                                                ) [DashOptLambda]
+                                                                                Term(
+                                                                                  FactorLiterals(
+                                                                                    LiteralsNum(
+                                                                                     3
+                                                                                    ) [LiteralsNum]
+                                                                                  ) [FactorLiterals]
+                                                                                  TermListEpsilon(
+                                                                                  ) [TermListEpsilon]
+                                                                                ) [Term]
+                                                                                ExprListEpsilon(
+                                                                                ) [ExprListEpsilon]
+                                                                              ) [Expr]
+                                                                            ) [FactorParsExpr]
+                                                                            FactorMatrixEpsilon(
+                                                                            ) [FactorMatrixEpsilon]
+                                                                          ) [FactorNew]
+                                                                          TermListEpsilon(
+                                                                          ) [TermListEpsilon]
+                                                                        ) [Term]
+                                                                        ExprListEpsilon(
+                                                                        ) [ExprListEpsilon]
+                                                                      ) [Expr]
+                                                                    ) [DesignatorStatementOptAssign]
+                                                                  ) [DesignatorStatementOpt1]
+                                                                ) [DesignatorSemiStatement]
+                                                              ) [StatementDesignator]
+                                                            ) [StatementLineRec]
+                                                            StatementDesignator(
+                                                              DesignatorSemiStatement(
+                                                                DesignatorStatementOpt1(
+                                                                  DesignatorStatementOptAssign(
+                                                                    Designator(
+                                                                     niz
+                                                                      DesignatorListDesignator(
+                                                                        DesignatorListEpsilon(
+                                                                        ) [DesignatorListEpsilon]
+                                                                        Expr(
+                                                                          DashOptLambda(
+                                                                          ) [DashOptLambda]
+                                                                          Term(
+                                                                            FactorDesignator(
+                                                                              Designator(
+                                                                               nula
+                                                                                DesignatorListEpsilon(
+                                                                                ) [DesignatorListEpsilon]
+                                                                              ) [Designator]
+                                                                              FactorDesignatorOptEpsilon(
+                                                                              ) [FactorDesignatorOptEpsilon]
+                                                                            ) [FactorDesignator]
+                                                                            TermListEpsilon(
+                                                                            ) [TermListEpsilon]
+                                                                          ) [Term]
+                                                                          ExprListEpsilon(
+                                                                          ) [ExprListEpsilon]
+                                                                        ) [Expr]
+                                                                      ) [DesignatorListDesignator]
+                                                                    ) [Designator]
+                                                                    AssignOpNoErr(
+                                                                    ) [AssignOpNoErr]
+                                                                    Expr(
+                                                                      DashOptLambda(
+                                                                      ) [DashOptLambda]
+                                                                      Term(
+                                                                        FactorDesignator(
+                                                                          Designator(
+                                                                           jedan
+                                                                            DesignatorListEpsilon(
+                                                                            ) [DesignatorListEpsilon]
+                                                                          ) [Designator]
+                                                                          FactorDesignatorOptEpsilon(
+                                                                          ) [FactorDesignatorOptEpsilon]
+                                                                        ) [FactorDesignator]
+                                                                        TermListEpsilon(
+                                                                        ) [TermListEpsilon]
+                                                                      ) [Term]
+                                                                      ExprListEpsilon(
+                                                                      ) [ExprListEpsilon]
+                                                                    ) [Expr]
+                                                                  ) [DesignatorStatementOptAssign]
+                                                                ) [DesignatorStatementOpt1]
+                                                              ) [DesignatorSemiStatement]
+                                                            ) [StatementDesignator]
+                                                          ) [StatementLineRec]
+                                                          StatementDesignator(
+                                                            DesignatorSemiStatement(
+                                                              DesignatorStatementOpt1(
+                                                                DesignatorStatementOptAssign(
+                                                                  Designator(
+                                                                   niz
+                                                                    DesignatorListDesignator(
+                                                                      DesignatorListEpsilon(
+                                                                      ) [DesignatorListEpsilon]
+                                                                      Expr(
+                                                                        DashOptLambda(
+                                                                        ) [DashOptLambda]
+                                                                        Term(
+                                                                          FactorLiterals(
+                                                                            LiteralsNum(
+                                                                             1
+                                                                            ) [LiteralsNum]
+                                                                          ) [FactorLiterals]
+                                                                          TermListEpsilon(
+                                                                          ) [TermListEpsilon]
+                                                                        ) [Term]
+                                                                        ExprListEpsilon(
+                                                                        ) [ExprListEpsilon]
+                                                                      ) [Expr]
+                                                                    ) [DesignatorListDesignator]
+                                                                  ) [Designator]
+                                                                  AssignOpNoErr(
+                                                                  ) [AssignOpNoErr]
+                                                                  Expr(
+                                                                    DashOptLambda(
+                                                                    ) [DashOptLambda]
+                                                                    Term(
+                                                                      FactorLiterals(
+                                                                        LiteralsNum(
+                                                                         2
+                                                                        ) [LiteralsNum]
+                                                                      ) [FactorLiterals]
+                                                                      TermListEpsilon(
+                                                                      ) [TermListEpsilon]
+                                                                    ) [Term]
+                                                                    ExprListEpsilon(
+                                                                    ) [ExprListEpsilon]
+                                                                  ) [Expr]
+                                                                ) [DesignatorStatementOptAssign]
+                                                              ) [DesignatorStatementOpt1]
+                                                            ) [DesignatorSemiStatement]
+                                                          ) [StatementDesignator]
+                                                        ) [StatementLineRec]
+                                                        StatementDesignator(
+                                                          DesignatorSemiStatement(
+                                                            DesignatorStatementOpt1(
+                                                              DesignatorStatementOptAssign(
+                                                                Designator(
+                                                                 niz
+                                                                  DesignatorListDesignator(
+                                                                    DesignatorListEpsilon(
+                                                                    ) [DesignatorListEpsilon]
+                                                                    Expr(
+                                                                      DashOptLambda(
+                                                                      ) [DashOptLambda]
+                                                                      Term(
+                                                                        FactorDesignator(
+                                                                          Designator(
+                                                                           niz
+                                                                            DesignatorListDesignator(
+                                                                              DesignatorListEpsilon(
+                                                                              ) [DesignatorListEpsilon]
+                                                                              Expr(
+                                                                                DashOptLambda(
+                                                                                ) [DashOptLambda]
+                                                                                Term(
+                                                                                  FactorDesignator(
+                                                                                    Designator(
+                                                                                     jedan
+                                                                                      DesignatorListEpsilon(
+                                                                                      ) [DesignatorListEpsilon]
+                                                                                    ) [Designator]
+                                                                                    FactorDesignatorOptEpsilon(
+                                                                                    ) [FactorDesignatorOptEpsilon]
+                                                                                  ) [FactorDesignator]
+                                                                                  TermListEpsilon(
+                                                                                  ) [TermListEpsilon]
+                                                                                ) [Term]
+                                                                                ExprListEpsilon(
+                                                                                ) [ExprListEpsilon]
+                                                                              ) [Expr]
+                                                                            ) [DesignatorListDesignator]
+                                                                          ) [Designator]
+                                                                          FactorDesignatorOptEpsilon(
+                                                                          ) [FactorDesignatorOptEpsilon]
+                                                                        ) [FactorDesignator]
+                                                                        TermListEpsilon(
+                                                                        ) [TermListEpsilon]
+                                                                      ) [Term]
+                                                                      ExprListEpsilon(
+                                                                      ) [ExprListEpsilon]
+                                                                    ) [Expr]
+                                                                  ) [DesignatorListDesignator]
+                                                                ) [Designator]
+                                                                AssignOpNoErr(
+                                                                ) [AssignOpNoErr]
+                                                                Expr(
+                                                                  DashOptLambda(
+                                                                  ) [DashOptLambda]
+                                                                  Term(
+                                                                    FactorDesignator(
+                                                                      Designator(
+                                                                       niz
+                                                                        DesignatorListDesignator(
+                                                                          DesignatorListEpsilon(
+                                                                          ) [DesignatorListEpsilon]
+                                                                          Expr(
+                                                                            DashOptLambda(
+                                                                            ) [DashOptLambda]
+                                                                            Term(
+                                                                              FactorDesignator(
+                                                                                Designator(
+                                                                                 niz
+                                                                                  DesignatorListDesignator(
+                                                                                    DesignatorListEpsilon(
+                                                                                    ) [DesignatorListEpsilon]
+                                                                                    Expr(
+                                                                                      DashOptLambda(
+                                                                                      ) [DashOptLambda]
+                                                                                      Term(
+                                                                                        FactorLiterals(
+                                                                                          LiteralsNum(
+                                                                                           0
+                                                                                          ) [LiteralsNum]
+                                                                                        ) [FactorLiterals]
+                                                                                        TermListEpsilon(
+                                                                                        ) [TermListEpsilon]
+                                                                                      ) [Term]
+                                                                                      ExprListEpsilon(
+                                                                                      ) [ExprListEpsilon]
+                                                                                    ) [Expr]
+                                                                                  ) [DesignatorListDesignator]
+                                                                                ) [Designator]
+                                                                                FactorDesignatorOptEpsilon(
+                                                                                ) [FactorDesignatorOptEpsilon]
+                                                                              ) [FactorDesignator]
+                                                                              TermListEpsilon(
+                                                                              ) [TermListEpsilon]
+                                                                            ) [Term]
+                                                                            ExprListEpsilon(
+                                                                            ) [ExprListEpsilon]
+                                                                          ) [Expr]
+                                                                        ) [DesignatorListDesignator]
+                                                                      ) [Designator]
+                                                                      FactorDesignatorOptEpsilon(
+                                                                      ) [FactorDesignatorOptEpsilon]
+                                                                    ) [FactorDesignator]
+                                                                    TermListRec(
+                                                                      TermListEpsilon(
+                                                                      ) [TermListEpsilon]
+                                                                      MulOpMul(
+                                                                      ) [MulOpMul]
+                                                                      FactorLiterals(
+                                                                        LiteralsNum(
+                                                                         3
+                                                                        ) [LiteralsNum]
+                                                                      ) [FactorLiterals]
+                                                                    ) [TermListRec]
+                                                                  ) [Term]
+                                                                  ExprListEpsilon(
+                                                                  ) [ExprListEpsilon]
+                                                                ) [Expr]
+                                                              ) [DesignatorStatementOptAssign]
+                                                            ) [DesignatorStatementOpt1]
+                                                          ) [DesignatorSemiStatement]
+                                                        ) [StatementDesignator]
+                                                      ) [StatementLineRec]
+                                                      StatementDesignator(
+                                                        DesignatorSemiStatement(
+                                                          DesignatorStatementOpt1(
+                                                            DesignatorStatementOptAssign(
+                                                              Designator(
+                                                               bodovi
+                                                                DesignatorListEpsilon(
+                                                                ) [DesignatorListEpsilon]
+                                                              ) [Designator]
+                                                              AssignOpNoErr(
+                                                              ) [AssignOpNoErr]
+                                                              Expr(
+                                                                DashOptLambda(
+                                                                ) [DashOptLambda]
+                                                                Term(
+                                                                  FactorDesignator(
+                                                                    Designator(
+                                                                     niz
+                                                                      DesignatorListDesignator(
+                                                                        DesignatorListEpsilon(
+                                                                        ) [DesignatorListEpsilon]
+                                                                        Expr(
+                                                                          DashOptLambda(
+                                                                          ) [DashOptLambda]
+                                                                          Term(
+                                                                            FactorLiterals(
+                                                                              LiteralsNum(
+                                                                               2
+                                                                              ) [LiteralsNum]
+                                                                            ) [FactorLiterals]
+                                                                            TermListEpsilon(
+                                                                            ) [TermListEpsilon]
+                                                                          ) [Term]
+                                                                          ExprListEpsilon(
+                                                                          ) [ExprListEpsilon]
+                                                                        ) [Expr]
+                                                                      ) [DesignatorListDesignator]
+                                                                    ) [Designator]
+                                                                    FactorDesignatorOptEpsilon(
+                                                                    ) [FactorDesignatorOptEpsilon]
+                                                                  ) [FactorDesignator]
+                                                                  TermListRec(
+                                                                    TermListEpsilon(
+                                                                    ) [TermListEpsilon]
+                                                                    MulOpDiv(
+                                                                    ) [MulOpDiv]
+                                                                    FactorDesignator(
+                                                                      Designator(
+                                                                       niz
+                                                                        DesignatorListDesignator(
+                                                                          DesignatorListEpsilon(
+                                                                          ) [DesignatorListEpsilon]
+                                                                          Expr(
+                                                                            DashOptLambda(
+                                                                            ) [DashOptLambda]
+                                                                            Term(
+                                                                              FactorLiterals(
+                                                                                LiteralsNum(
+                                                                                 0
+                                                                                ) [LiteralsNum]
+                                                                              ) [FactorLiterals]
+                                                                              TermListEpsilon(
+                                                                              ) [TermListEpsilon]
+                                                                            ) [Term]
+                                                                            ExprListEpsilon(
+                                                                            ) [ExprListEpsilon]
+                                                                          ) [Expr]
+                                                                        ) [DesignatorListDesignator]
+                                                                      ) [Designator]
+                                                                      FactorDesignatorOptEpsilon(
+                                                                      ) [FactorDesignatorOptEpsilon]
+                                                                    ) [FactorDesignator]
+                                                                  ) [TermListRec]
+                                                                ) [Term]
+                                                                ExprListEpsilon(
+                                                                ) [ExprListEpsilon]
+                                                              ) [Expr]
+                                                            ) [DesignatorStatementOptAssign]
+                                                          ) [DesignatorStatementOpt1]
+                                                        ) [DesignatorSemiStatement]
+                                                      ) [StatementDesignator]
+                                                    ) [StatementLineRec]
+                                                    StatementPrint(
+                                                      Expr(
+                                                        DashOptLambda(
+                                                        ) [DashOptLambda]
+                                                        Term(
+                                                          FactorDesignator(
+                                                            Designator(
+                                                             bodovi
+                                                              DesignatorListEpsilon(
+                                                              ) [DesignatorListEpsilon]
+                                                            ) [Designator]
+                                                            FactorDesignatorOptEpsilon(
+                                                            ) [FactorDesignatorOptEpsilon]
+                                                          ) [FactorDesignator]
+                                                          TermListEpsilon(
+                                                          ) [TermListEpsilon]
+                                                        ) [Term]
+                                                        ExprListEpsilon(
+                                                        ) [ExprListEpsilon]
+                                                      ) [Expr]
+                                                      StatementPrintOptEpsilon(
+                                                      ) [StatementPrintOptEpsilon]
+                                                    ) [StatementPrint]
+                                                  ) [StatementLineRec]
+                                                  StatementPrint(
+                                                    Expr(
+                                                      DashOptLambda(
+                                                      ) [DashOptLambda]
+                                                      Term(
+                                                        FactorDesignator(
+                                                          Designator(
+                                                           niz
+                                                            DesignatorListDesignator(
+                                                              DesignatorListEpsilon(
+                                                              ) [DesignatorListEpsilon]
+                                                              Expr(
+                                                                DashOptLambda(
+                                                                ) [DashOptLambda]
+                                                                Term(
+                                                                  FactorLiterals(
+                                                                    LiteralsNum(
+                                                                     0
+                                                                    ) [LiteralsNum]
+                                                                  ) [FactorLiterals]
+                                                                  TermListEpsilon(
+                                                                  ) [TermListEpsilon]
+                                                                ) [Term]
+                                                                ExprListEpsilon(
+                                                                ) [ExprListEpsilon]
+                                                              ) [Expr]
+                                                            ) [DesignatorListDesignator]
+                                                          ) [Designator]
+                                                          FactorDesignatorOptEpsilon(
+                                                          ) [FactorDesignatorOptEpsilon]
+                                                        ) [FactorDesignator]
+                                                        TermListEpsilon(
+                                                        ) [TermListEpsilon]
+                                                      ) [Term]
+                                                      ExprListEpsilon(
+                                                      ) [ExprListEpsilon]
+                                                    ) [Expr]
+                                                    StatementPrintOptEpsilon(
+                                                    ) [StatementPrintOptEpsilon]
+                                                  ) [StatementPrint]
+                                                ) [StatementLineRec]
+                                                StatementPrint(
+                                                  Expr(
+                                                    DashOptLambda(
+                                                    ) [DashOptLambda]
+                                                    Term(
+                                                      FactorDesignator(
+                                                        Designator(
+                                                         niz
+                                                          DesignatorListDesignator(
+                                                            DesignatorListEpsilon(
+                                                            ) [DesignatorListEpsilon]
+                                                            Expr(
+                                                              DashOptLambda(
+                                                              ) [DashOptLambda]
+                                                              Term(
+                                                                FactorLiterals(
+                                                                  LiteralsNum(
+                                                                   1
+                                                                  ) [LiteralsNum]
+                                                                ) [FactorLiterals]
+                                                                TermListEpsilon(
+                                                                ) [TermListEpsilon]
+                                                              ) [Term]
+                                                              ExprListEpsilon(
+                                                              ) [ExprListEpsilon]
+                                                            ) [Expr]
+                                                          ) [DesignatorListDesignator]
+                                                        ) [Designator]
+                                                        FactorDesignatorOptEpsilon(
+                                                        ) [FactorDesignatorOptEpsilon]
+                                                      ) [FactorDesignator]
+                                                      TermListEpsilon(
+                                                      ) [TermListEpsilon]
+                                                    ) [Term]
+                                                    ExprListEpsilon(
+                                                    ) [ExprListEpsilon]
+                                                  ) [Expr]
+                                                  StatementPrintOptEpsilon(
+                                                  ) [StatementPrintOptEpsilon]
+                                                ) [StatementPrint]
+                                              ) [StatementLineRec]
+                                              StatementPrint(
+                                                Expr(
+                                                  DashOptLambda(
+                                                  ) [DashOptLambda]
+                                                  Term(
+                                                    FactorDesignator(
+                                                      Designator(
+                                                       niz
+                                                        DesignatorListDesignator(
+                                                          DesignatorListEpsilon(
+                                                          ) [DesignatorListEpsilon]
+                                                          Expr(
+                                                            DashOptLambda(
+                                                            ) [DashOptLambda]
+                                                            Term(
+                                                              FactorLiterals(
+                                                                LiteralsNum(
+                                                                 2
+                                                                ) [LiteralsNum]
+                                                              ) [FactorLiterals]
+                                                              TermListEpsilon(
+                                                              ) [TermListEpsilon]
+                                                            ) [Term]
+                                                            ExprListEpsilon(
+                                                            ) [ExprListEpsilon]
+                                                          ) [Expr]
+                                                        ) [DesignatorListDesignator]
+                                                      ) [Designator]
+                                                      FactorDesignatorOptEpsilon(
+                                                      ) [FactorDesignatorOptEpsilon]
+                                                    ) [FactorDesignator]
+                                                    TermListEpsilon(
+                                                    ) [TermListEpsilon]
+                                                  ) [Term]
+                                                  ExprListEpsilon(
+                                                  ) [ExprListEpsilon]
+                                                ) [Expr]
+                                                StatementPrintOptEpsilon(
+                                                ) [StatementPrintOptEpsilon]
+                                              ) [StatementPrint]
+                                            ) [StatementLineRec]
+                                            StatementDesignator(
+                                              DesignatorSemiStatement(
+                                                DesignatorStatementOpt1(
+                                                  DesignatorStatementOptAssign(
+                                                    Designator(
+                                                     mat
+                                                      DesignatorListEpsilon(
+                                                      ) [DesignatorListEpsilon]
+                                                    ) [Designator]
+                                                    AssignOpNoErr(
+                                                    ) [AssignOpNoErr]
+                                                    Expr(
+                                                      DashOptLambda(
+                                                      ) [DashOptLambda]
+                                                      Term(
+                                                        FactorNew(
+                                                          FactorNewType(
+                                                            Type(
+                                                             int
+                                                            ) [Type]
+                                                          ) [FactorNewType]
+                                                          FactorParsExpr(
+                                                            Expr(
+                                                              DashOptLambda(
+                                                              ) [DashOptLambda]
+                                                              Term(
+                                                                FactorLiterals(
+                                                                  LiteralsNum(
+                                                                   4
+                                                                  ) [LiteralsNum]
+                                                                ) [FactorLiterals]
+                                                                TermListEpsilon(
+                                                                ) [TermListEpsilon]
+                                                              ) [Term]
+                                                              ExprListEpsilon(
+                                                              ) [ExprListEpsilon]
+                                                            ) [Expr]
+                                                          ) [FactorParsExpr]
+                                                          FactorMatrixSingle(
+                                                            FactorParsExpr(
+                                                              Expr(
+                                                                DashOptLambda(
+                                                                ) [DashOptLambda]
+                                                                Term(
+                                                                  FactorLiterals(
+                                                                    LiteralsNum(
+                                                                     5
+                                                                    ) [LiteralsNum]
+                                                                  ) [FactorLiterals]
+                                                                  TermListEpsilon(
+                                                                  ) [TermListEpsilon]
+                                                                ) [Term]
+                                                                ExprListEpsilon(
+                                                                ) [ExprListEpsilon]
+                                                              ) [Expr]
+                                                            ) [FactorParsExpr]
+                                                          ) [FactorMatrixSingle]
+                                                        ) [FactorNew]
+                                                        TermListEpsilon(
+                                                        ) [TermListEpsilon]
+                                                      ) [Term]
+                                                      ExprListEpsilon(
+                                                      ) [ExprListEpsilon]
+                                                    ) [Expr]
+                                                  ) [DesignatorStatementOptAssign]
+                                                ) [DesignatorStatementOpt1]
+                                              ) [DesignatorSemiStatement]
+                                            ) [StatementDesignator]
+                                          ) [StatementLineRec]
+                                          StatementRead(
+                                            Designator(
+                                             niz
+                                              DesignatorListDesignator(
+                                                DesignatorListEpsilon(
+                                                ) [DesignatorListEpsilon]
+                                                Expr(
+                                                  DashOptLambda(
+                                                  ) [DashOptLambda]
+                                                  Term(
+                                                    FactorLiterals(
+                                                      LiteralsNum(
+                                                       1
+                                                      ) [LiteralsNum]
+                                                    ) [FactorLiterals]
+                                                    TermListEpsilon(
+                                                    ) [TermListEpsilon]
+                                                  ) [Term]
+                                                  ExprListEpsilon(
+                                                  ) [ExprListEpsilon]
+                                                ) [Expr]
+                                              ) [DesignatorListDesignator]
+                                            ) [Designator]
+                                          ) [StatementRead]
+                                        ) [StatementLineRec]
+                                        StatementDesignator(
+                                          DesignatorSemiStatement(
+                                            DesignatorStatementOpt1(
+                                              DesignatorStatementOptAssign(
+                                                Designator(
+                                                 mat
+                                                  DesignatorListDesignator(
+                                                    DesignatorListDesignator(
+                                                      DesignatorListEpsilon(
+                                                      ) [DesignatorListEpsilon]
+                                                      Expr(
+                                                        DashOptLambda(
+                                                        ) [DashOptLambda]
+                                                        Term(
+                                                          FactorLiterals(
+                                                            LiteralsNum(
+                                                             0
+                                                            ) [LiteralsNum]
+                                                          ) [FactorLiterals]
+                                                          TermListEpsilon(
+                                                          ) [TermListEpsilon]
+                                                        ) [Term]
+                                                        ExprListEpsilon(
+                                                        ) [ExprListEpsilon]
+                                                      ) [Expr]
+                                                    ) [DesignatorListDesignator]
+                                                    Expr(
+                                                      DashOptLambda(
+                                                      ) [DashOptLambda]
+                                                      Term(
+                                                        FactorLiterals(
+                                                          LiteralsNum(
+                                                           0
+                                                          ) [LiteralsNum]
+                                                        ) [FactorLiterals]
+                                                        TermListEpsilon(
+                                                        ) [TermListEpsilon]
+                                                      ) [Term]
+                                                      ExprListEpsilon(
+                                                      ) [ExprListEpsilon]
+                                                    ) [Expr]
+                                                  ) [DesignatorListDesignator]
+                                                ) [Designator]
+                                                AssignOpNoErr(
+                                                ) [AssignOpNoErr]
+                                                Expr(
+                                                  DashOptLambda(
+                                                  ) [DashOptLambda]
+                                                  Term(
+                                                    FactorDesignator(
+                                                      Designator(
+                                                       mat
+                                                        DesignatorListDesignator(
+                                                          DesignatorListDesignator(
+                                                            DesignatorListEpsilon(
+                                                            ) [DesignatorListEpsilon]
+                                                            Expr(
+                                                              DashOptLambda(
+                                                              ) [DashOptLambda]
+                                                              Term(
+                                                                FactorLiterals(
+                                                                  LiteralsNum(
+                                                                   0
+                                                                  ) [LiteralsNum]
+                                                                ) [FactorLiterals]
+                                                                TermListEpsilon(
+                                                                ) [TermListEpsilon]
+                                                              ) [Term]
+                                                              ExprListEpsilon(
+                                                              ) [ExprListEpsilon]
+                                                            ) [Expr]
+                                                          ) [DesignatorListDesignator]
+                                                          Expr(
+                                                            DashOptLambda(
+                                                            ) [DashOptLambda]
+                                                            Term(
+                                                              FactorDesignator(
+                                                                Designator(
+                                                                 mat
+                                                                  DesignatorListDesignator(
+                                                                    DesignatorListDesignator(
+                                                                      DesignatorListEpsilon(
+                                                                      ) [DesignatorListEpsilon]
+                                                                      Expr(
+                                                                        DashOptLambda(
+                                                                        ) [DashOptLambda]
+                                                                        Term(
+                                                                          FactorLiterals(
+                                                                            LiteralsNum(
+                                                                             0
+                                                                            ) [LiteralsNum]
+                                                                          ) [FactorLiterals]
+                                                                          TermListEpsilon(
+                                                                          ) [TermListEpsilon]
+                                                                        ) [Term]
+                                                                        ExprListEpsilon(
+                                                                        ) [ExprListEpsilon]
+                                                                      ) [Expr]
+                                                                    ) [DesignatorListDesignator]
+                                                                    Expr(
+                                                                      DashOptLambda(
+                                                                      ) [DashOptLambda]
+                                                                      Term(
+                                                                        FactorLiterals(
+                                                                          LiteralsNum(
+                                                                           0
+                                                                          ) [LiteralsNum]
+                                                                        ) [FactorLiterals]
+                                                                        TermListEpsilon(
+                                                                        ) [TermListEpsilon]
+                                                                      ) [Term]
+                                                                      ExprListEpsilon(
+                                                                      ) [ExprListEpsilon]
+                                                                    ) [Expr]
+                                                                  ) [DesignatorListDesignator]
+                                                                ) [Designator]
+                                                                FactorDesignatorOptEpsilon(
+                                                                ) [FactorDesignatorOptEpsilon]
+                                                              ) [FactorDesignator]
+                                                              TermListEpsilon(
+                                                              ) [TermListEpsilon]
+                                                            ) [Term]
+                                                            ExprListEpsilon(
+                                                            ) [ExprListEpsilon]
+                                                          ) [Expr]
+                                                        ) [DesignatorListDesignator]
+                                                      ) [Designator]
+                                                      FactorDesignatorOptEpsilon(
+                                                      ) [FactorDesignatorOptEpsilon]
+                                                    ) [FactorDesignator]
+                                                    TermListEpsilon(
+                                                    ) [TermListEpsilon]
+                                                  ) [Term]
+                                                  ExprListEpsilon(
+                                                  ) [ExprListEpsilon]
+                                                ) [Expr]
+                                              ) [DesignatorStatementOptAssign]
+                                            ) [DesignatorStatementOpt1]
+                                          ) [DesignatorSemiStatement]
+                                        ) [StatementDesignator]
+                                      ) [StatementLineRec]
+                                      StatementDesignator(
+                                        DesignatorSemiStatement(
+                                          DesignatorStatementOpt1(
+                                            DesignatorStatementOptAssign(
+                                              Designator(
+                                               mat
+                                                DesignatorListDesignator(
+                                                  DesignatorListDesignator(
+                                                    DesignatorListEpsilon(
+                                                    ) [DesignatorListEpsilon]
+                                                    Expr(
+                                                      DashOptLambda(
+                                                      ) [DashOptLambda]
+                                                      Term(
+                                                        FactorLiterals(
+                                                          LiteralsNum(
+                                                           0
+                                                          ) [LiteralsNum]
+                                                        ) [FactorLiterals]
+                                                        TermListEpsilon(
+                                                        ) [TermListEpsilon]
+                                                      ) [Term]
+                                                      ExprListEpsilon(
+                                                      ) [ExprListEpsilon]
+                                                    ) [Expr]
+                                                  ) [DesignatorListDesignator]
+                                                  Expr(
+                                                    DashOptLambda(
+                                                    ) [DashOptLambda]
+                                                    Term(
+                                                      FactorDesignator(
+                                                        Designator(
+                                                         mat
+                                                          DesignatorListDesignator(
+                                                            DesignatorListDesignator(
+                                                              DesignatorListEpsilon(
+                                                              ) [DesignatorListEpsilon]
+                                                              Expr(
+                                                                DashOptLambda(
+                                                                ) [DashOptLambda]
+                                                                Term(
+                                                                  FactorLiterals(
+                                                                    LiteralsNum(
+                                                                     0
+                                                                    ) [LiteralsNum]
+                                                                  ) [FactorLiterals]
+                                                                  TermListEpsilon(
+                                                                  ) [TermListEpsilon]
+                                                                ) [Term]
+                                                                ExprListEpsilon(
+                                                                ) [ExprListEpsilon]
+                                                              ) [Expr]
+                                                            ) [DesignatorListDesignator]
+                                                            Expr(
+                                                              DashOptLambda(
+                                                              ) [DashOptLambda]
+                                                              Term(
+                                                                FactorLiterals(
+                                                                  LiteralsNum(
+                                                                   0
+                                                                  ) [LiteralsNum]
+                                                                ) [FactorLiterals]
+                                                                TermListEpsilon(
+                                                                ) [TermListEpsilon]
+                                                              ) [Term]
+                                                              ExprListEpsilon(
+                                                              ) [ExprListEpsilon]
+                                                            ) [Expr]
+                                                          ) [DesignatorListDesignator]
+                                                        ) [Designator]
+                                                        FactorDesignatorOptEpsilon(
+                                                        ) [FactorDesignatorOptEpsilon]
+                                                      ) [FactorDesignator]
+                                                      TermListEpsilon(
+                                                      ) [TermListEpsilon]
+                                                    ) [Term]
+                                                    ExprListEpsilon(
+                                                    ) [ExprListEpsilon]
+                                                  ) [Expr]
+                                                ) [DesignatorListDesignator]
+                                              ) [Designator]
+                                              AssignOpNoErr(
+                                              ) [AssignOpNoErr]
+                                              Expr(
+                                                DashOptLambda(
+                                                ) [DashOptLambda]
+                                                Term(
+                                                  FactorLiterals(
+                                                    LiteralsNum(
+                                                     2
+                                                    ) [LiteralsNum]
+                                                  ) [FactorLiterals]
+                                                  TermListEpsilon(
+                                                  ) [TermListEpsilon]
+                                                ) [Term]
+                                                ExprListEpsilon(
+                                                ) [ExprListEpsilon]
+                                              ) [Expr]
+                                            ) [DesignatorStatementOptAssign]
+                                          ) [DesignatorStatementOpt1]
+                                        ) [DesignatorSemiStatement]
+                                      ) [StatementDesignator]
+                                    ) [StatementLineRec]
+                                    StatementDesignator(
+                                      DesignatorSemiStatement(
+                                        DesignatorStatementOpt1(
+                                          DesignatorStatementOptAssign(
+                                            Designator(
+                                             mat
+                                              DesignatorListDesignator(
+                                                DesignatorListDesignator(
+                                                  DesignatorListEpsilon(
+                                                  ) [DesignatorListEpsilon]
+                                                  Expr(
+                                                    DashOptLambda(
+                                                    ) [DashOptLambda]
+                                                    Term(
+                                                      FactorLiterals(
+                                                        LiteralsNum(
+                                                         1
+                                                        ) [LiteralsNum]
+                                                      ) [FactorLiterals]
+                                                      TermListEpsilon(
+                                                      ) [TermListEpsilon]
+                                                    ) [Term]
+                                                    ExprListEpsilon(
+                                                    ) [ExprListEpsilon]
+                                                  ) [Expr]
+                                                ) [DesignatorListDesignator]
+                                                Expr(
+                                                  DashOptLambda(
+                                                  ) [DashOptLambda]
+                                                  Term(
+                                                    FactorDesignator(
+                                                      Designator(
+                                                       jedan
+                                                        DesignatorListEpsilon(
+                                                        ) [DesignatorListEpsilon]
+                                                      ) [Designator]
+                                                      FactorDesignatorOptEpsilon(
+                                                      ) [FactorDesignatorOptEpsilon]
+                                                    ) [FactorDesignator]
+                                                    TermListEpsilon(
+                                                    ) [TermListEpsilon]
+                                                  ) [Term]
+                                                  ExprListSingle(
+                                                    ExprListEpsilon(
+                                                    ) [ExprListEpsilon]
+                                                    AddOpMinus(
+                                                    ) [AddOpMinus]
+                                                    Term(
+                                                      FactorDesignator(
+                                                        Designator(
+                                                         niz
+                                                          DesignatorListDesignator(
+                                                            DesignatorListEpsilon(
+                                                            ) [DesignatorListEpsilon]
+                                                            Expr(
+                                                              DashOptLambda(
+                                                              ) [DashOptLambda]
+                                                              Term(
+                                                                FactorLiterals(
+                                                                  LiteralsNum(
+                                                                   0
+                                                                  ) [LiteralsNum]
+                                                                ) [FactorLiterals]
+                                                                TermListEpsilon(
+                                                                ) [TermListEpsilon]
+                                                              ) [Term]
+                                                              ExprListEpsilon(
+                                                              ) [ExprListEpsilon]
+                                                            ) [Expr]
+                                                          ) [DesignatorListDesignator]
+                                                        ) [Designator]
+                                                        FactorDesignatorOptEpsilon(
+                                                        ) [FactorDesignatorOptEpsilon]
+                                                      ) [FactorDesignator]
+                                                      TermListEpsilon(
+                                                      ) [TermListEpsilon]
+                                                    ) [Term]
+                                                  ) [ExprListSingle]
+                                                ) [Expr]
+                                              ) [DesignatorListDesignator]
+                                            ) [Designator]
+                                            AssignOpNoErr(
+                                            ) [AssignOpNoErr]
+                                            Expr(
+                                              DashOptLambda(
+                                              ) [DashOptLambda]
+                                              Term(
+                                                FactorLiterals(
+                                                  LiteralsNum(
+                                                   5
+                                                  ) [LiteralsNum]
+                                                ) [FactorLiterals]
+                                                TermListEpsilon(
+                                                ) [TermListEpsilon]
+                                              ) [Term]
+                                              ExprListEpsilon(
+                                              ) [ExprListEpsilon]
+                                            ) [Expr]
+                                          ) [DesignatorStatementOptAssign]
+                                        ) [DesignatorStatementOpt1]
+                                      ) [DesignatorSemiStatement]
+                                    ) [StatementDesignator]
+                                  ) [StatementLineRec]
+                                  StatementDesignator(
+                                    DesignatorSemiStatement(
+                                      DesignatorStatementOpt1(
+                                        DesignatorStatementOptAssign(
+                                          Designator(
+                                           mat
+                                            DesignatorListDesignator(
+                                              DesignatorListDesignator(
+                                                DesignatorListEpsilon(
+                                                ) [DesignatorListEpsilon]
+                                                Expr(
+                                                  DashOptLambda(
+                                                  ) [DashOptLambda]
+                                                  Term(
+                                                    FactorLiterals(
+                                                      LiteralsNum(
+                                                       1
+                                                      ) [LiteralsNum]
+                                                    ) [FactorLiterals]
+                                                    TermListEpsilon(
+                                                    ) [TermListEpsilon]
+                                                  ) [Term]
+                                                  ExprListEpsilon(
+                                                  ) [ExprListEpsilon]
+                                                ) [Expr]
+                                              ) [DesignatorListDesignator]
+                                              Expr(
+                                                DashOptLambda(
+                                                ) [DashOptLambda]
+                                                Term(
+                                                  FactorLiterals(
+                                                    LiteralsNum(
+                                                     1
+                                                    ) [LiteralsNum]
+                                                  ) [FactorLiterals]
+                                                  TermListEpsilon(
+                                                  ) [TermListEpsilon]
+                                                ) [Term]
+                                                ExprListEpsilon(
+                                                ) [ExprListEpsilon]
+                                              ) [Expr]
+                                            ) [DesignatorListDesignator]
+                                          ) [Designator]
+                                          AssignOpNoErr(
+                                          ) [AssignOpNoErr]
+                                          Expr(
+                                            DashOptLambda(
+                                            ) [DashOptLambda]
+                                            Term(
+                                              FactorDesignator(
+                                                Designator(
+                                                 mat
+                                                  DesignatorListDesignator(
+                                                    DesignatorListDesignator(
+                                                      DesignatorListEpsilon(
+                                                      ) [DesignatorListEpsilon]
+                                                      Expr(
+                                                        DashOptLambda(
+                                                        ) [DashOptLambda]
+                                                        Term(
+                                                          FactorLiterals(
+                                                            LiteralsNum(
+                                                             0
+                                                            ) [LiteralsNum]
+                                                          ) [FactorLiterals]
+                                                          TermListEpsilon(
+                                                          ) [TermListEpsilon]
+                                                        ) [Term]
+                                                        ExprListEpsilon(
+                                                        ) [ExprListEpsilon]
+                                                      ) [Expr]
+                                                    ) [DesignatorListDesignator]
+                                                    Expr(
+                                                      DashOptLambda(
+                                                      ) [DashOptLambda]
+                                                      Term(
+                                                        FactorLiterals(
+                                                          LiteralsNum(
+                                                           0
+                                                          ) [LiteralsNum]
+                                                        ) [FactorLiterals]
+                                                        TermListEpsilon(
+                                                        ) [TermListEpsilon]
+                                                      ) [Term]
+                                                      ExprListEpsilon(
+                                                      ) [ExprListEpsilon]
+                                                    ) [Expr]
+                                                  ) [DesignatorListDesignator]
+                                                ) [Designator]
+                                                FactorDesignatorOptEpsilon(
+                                                ) [FactorDesignatorOptEpsilon]
+                                              ) [FactorDesignator]
+                                              TermListRec(
+                                                TermListEpsilon(
+                                                ) [TermListEpsilon]
+                                                MulOpMul(
+                                                ) [MulOpMul]
+                                                FactorDesignator(
+                                                  Designator(
+                                                   mat
+                                                    DesignatorListDesignator(
+                                                      DesignatorListDesignator(
+                                                        DesignatorListEpsilon(
+                                                        ) [DesignatorListEpsilon]
+                                                        Expr(
+                                                          DashOptLambda(
+                                                          ) [DashOptLambda]
+                                                          Term(
+                                                            FactorLiterals(
+                                                              LiteralsNum(
+                                                               0
+                                                              ) [LiteralsNum]
+                                                            ) [FactorLiterals]
+                                                            TermListEpsilon(
+                                                            ) [TermListEpsilon]
+                                                          ) [Term]
+                                                          ExprListEpsilon(
+                                                          ) [ExprListEpsilon]
+                                                        ) [Expr]
+                                                      ) [DesignatorListDesignator]
+                                                      Expr(
+                                                        DashOptLambda(
+                                                        ) [DashOptLambda]
+                                                        Term(
+                                                          FactorLiterals(
+                                                            LiteralsNum(
+                                                             1
+                                                            ) [LiteralsNum]
+                                                          ) [FactorLiterals]
+                                                          TermListEpsilon(
+                                                          ) [TermListEpsilon]
+                                                        ) [Term]
+                                                        ExprListEpsilon(
+                                                        ) [ExprListEpsilon]
+                                                      ) [Expr]
+                                                    ) [DesignatorListDesignator]
+                                                  ) [Designator]
+                                                  FactorDesignatorOptEpsilon(
+                                                  ) [FactorDesignatorOptEpsilon]
+                                                ) [FactorDesignator]
+                                              ) [TermListRec]
+                                            ) [Term]
+                                            ExprListEpsilon(
+                                            ) [ExprListEpsilon]
+                                          ) [Expr]
+                                        ) [DesignatorStatementOptAssign]
+                                      ) [DesignatorStatementOpt1]
+                                    ) [DesignatorSemiStatement]
+                                  ) [StatementDesignator]
+                                ) [StatementLineRec]
+                                StatementPrint(
+                                  Expr(
+                                    DashOptLambda(
+                                    ) [DashOptLambda]
+                                    Term(
+                                      FactorDesignator(
+                                        Designator(
+                                         mat
+                                          DesignatorListDesignator(
+                                            DesignatorListDesignator(
+                                              DesignatorListEpsilon(
+                                              ) [DesignatorListEpsilon]
+                                              Expr(
+                                                DashOptLambda(
+                                                ) [DashOptLambda]
+                                                Term(
+                                                  FactorLiterals(
+                                                    LiteralsNum(
+                                                     0
+                                                    ) [LiteralsNum]
+                                                  ) [FactorLiterals]
+                                                  TermListEpsilon(
+                                                  ) [TermListEpsilon]
+                                                ) [Term]
+                                                ExprListEpsilon(
+                                                ) [ExprListEpsilon]
+                                              ) [Expr]
+                                            ) [DesignatorListDesignator]
+                                            Expr(
+                                              DashOptLambda(
+                                              ) [DashOptLambda]
+                                              Term(
+                                                FactorLiterals(
+                                                  LiteralsNum(
+                                                   0
+                                                  ) [LiteralsNum]
+                                                ) [FactorLiterals]
+                                                TermListEpsilon(
+                                                ) [TermListEpsilon]
+                                              ) [Term]
+                                              ExprListEpsilon(
+                                              ) [ExprListEpsilon]
+                                            ) [Expr]
+                                          ) [DesignatorListDesignator]
+                                        ) [Designator]
+                                        FactorDesignatorOptEpsilon(
+                                        ) [FactorDesignatorOptEpsilon]
+                                      ) [FactorDesignator]
+                                      TermListEpsilon(
+                                      ) [TermListEpsilon]
+                                    ) [Term]
+                                    ExprListEpsilon(
+                                    ) [ExprListEpsilon]
+                                  ) [Expr]
+                                  StatementPrintOptEpsilon(
+                                  ) [StatementPrintOptEpsilon]
+                                ) [StatementPrint]
+                              ) [StatementLineRec]
+                              StatementPrint(
+                                Expr(
+                                  DashOptLambda(
+                                  ) [DashOptLambda]
+                                  Term(
+                                    FactorDesignator(
+                                      Designator(
+                                       mat
+                                        DesignatorListDesignator(
+                                          DesignatorListDesignator(
+                                            DesignatorListEpsilon(
+                                            ) [DesignatorListEpsilon]
+                                            Expr(
+                                              DashOptLambda(
+                                              ) [DashOptLambda]
+                                              Term(
+                                                FactorLiterals(
+                                                  LiteralsNum(
+                                                   1
+                                                  ) [LiteralsNum]
+                                                ) [FactorLiterals]
+                                                TermListEpsilon(
+                                                ) [TermListEpsilon]
+                                              ) [Term]
+                                              ExprListEpsilon(
+                                              ) [ExprListEpsilon]
+                                            ) [Expr]
+                                          ) [DesignatorListDesignator]
+                                          Expr(
+                                            DashOptLambda(
+                                            ) [DashOptLambda]
+                                            Term(
+                                              FactorLiterals(
+                                                LiteralsNum(
+                                                 0
+                                                ) [LiteralsNum]
+                                              ) [FactorLiterals]
+                                              TermListEpsilon(
+                                              ) [TermListEpsilon]
+                                            ) [Term]
+                                            ExprListEpsilon(
+                                            ) [ExprListEpsilon]
+                                          ) [Expr]
+                                        ) [DesignatorListDesignator]
+                                      ) [Designator]
+                                      FactorDesignatorOptEpsilon(
+                                      ) [FactorDesignatorOptEpsilon]
+                                    ) [FactorDesignator]
+                                    TermListEpsilon(
+                                    ) [TermListEpsilon]
+                                  ) [Term]
+                                  ExprListEpsilon(
+                                  ) [ExprListEpsilon]
+                                ) [Expr]
+                                StatementPrintOptEpsilon(
+                                ) [StatementPrintOptEpsilon]
+                              ) [StatementPrint]
+                            ) [StatementLineRec]
+                            StatementPrint(
+                              Expr(
+                                DashOptLambda(
+                                ) [DashOptLambda]
+                                Term(
+                                  FactorDesignator(
+                                    Designator(
+                                     mat
+                                      DesignatorListDesignator(
+                                        DesignatorListDesignator(
+                                          DesignatorListEpsilon(
+                                          ) [DesignatorListEpsilon]
+                                          Expr(
+                                            DashOptLambda(
+                                            ) [DashOptLambda]
+                                            Term(
+                                              FactorLiterals(
+                                                LiteralsNum(
+                                                 1
+                                                ) [LiteralsNum]
+                                              ) [FactorLiterals]
+                                              TermListEpsilon(
+                                              ) [TermListEpsilon]
+                                            ) [Term]
+                                            ExprListEpsilon(
+                                            ) [ExprListEpsilon]
+                                          ) [Expr]
+                                        ) [DesignatorListDesignator]
+                                        Expr(
+                                          DashOptLambda(
+                                          ) [DashOptLambda]
+                                          Term(
+                                            FactorLiterals(
+                                              LiteralsNum(
+                                               1
+                                              ) [LiteralsNum]
+                                            ) [FactorLiterals]
+                                            TermListEpsilon(
+                                            ) [TermListEpsilon]
+                                          ) [Term]
+                                          ExprListEpsilon(
+                                          ) [ExprListEpsilon]
+                                        ) [Expr]
+                                      ) [DesignatorListDesignator]
+                                    ) [Designator]
+                                    FactorDesignatorOptEpsilon(
+                                    ) [FactorDesignatorOptEpsilon]
+                                  ) [FactorDesignator]
+                                  TermListEpsilon(
+                                  ) [TermListEpsilon]
+                                ) [Term]
+                                ExprListEpsilon(
+                                ) [ExprListEpsilon]
+                              ) [Expr]
+                              StatementPrintOptEpsilon(
+                              ) [StatementPrintOptEpsilon]
+                            ) [StatementPrint]
+                          ) [StatementLineRec]
+                          StatementDesignator(
+                            DesignatorSemiStatement(
+                              DesignatorStatementOpt1(
+                                DesignatorStatementOptAssign(
+                                  Designator(
+                                   nizch
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                  ) [Designator]
+                                  AssignOpNoErr(
+                                  ) [AssignOpNoErr]
+                                  Expr(
+                                    DashOptLambda(
+                                    ) [DashOptLambda]
+                                    Term(
+                                      FactorNew(
+                                        FactorNewType(
+                                          Type(
+                                           char
+                                          ) [Type]
+                                        ) [FactorNewType]
+                                        FactorParsExpr(
+                                          Expr(
+                                            DashOptLambda(
+                                            ) [DashOptLambda]
+                                            Term(
+                                              FactorLiterals(
+                                                LiteralsNum(
+                                                 3
+                                                ) [LiteralsNum]
+                                              ) [FactorLiterals]
+                                              TermListEpsilon(
+                                              ) [TermListEpsilon]
+                                            ) [Term]
+                                            ExprListEpsilon(
+                                            ) [ExprListEpsilon]
+                                          ) [Expr]
+                                        ) [FactorParsExpr]
+                                        FactorMatrixEpsilon(
+                                        ) [FactorMatrixEpsilon]
+                                      ) [FactorNew]
+                                      TermListEpsilon(
+                                      ) [TermListEpsilon]
+                                    ) [Term]
+                                    ExprListEpsilon(
+                                    ) [ExprListEpsilon]
+                                  ) [Expr]
+                                ) [DesignatorStatementOptAssign]
+                              ) [DesignatorStatementOpt1]
+                            ) [DesignatorSemiStatement]
+                          ) [StatementDesignator]
+                        ) [StatementLineRec]
+                        StatementDesignator(
+                          DesignatorSemiStatement(
+                            DesignatorStatementOpt1(
+                              DesignatorStatementOptAssign(
+                                Designator(
+                                 nizch
+                                  DesignatorListDesignator(
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                    Expr(
+                                      DashOptLambda(
+                                      ) [DashOptLambda]
+                                      Term(
+                                        FactorLiterals(
+                                          LiteralsNum(
+                                           0
+                                          ) [LiteralsNum]
+                                        ) [FactorLiterals]
+                                        TermListEpsilon(
+                                        ) [TermListEpsilon]
+                                      ) [Term]
+                                      ExprListEpsilon(
+                                      ) [ExprListEpsilon]
+                                    ) [Expr]
+                                  ) [DesignatorListDesignator]
+                                ) [Designator]
+                                AssignOpNoErr(
+                                ) [AssignOpNoErr]
+                                Expr(
+                                  DashOptLambda(
+                                  ) [DashOptLambda]
+                                  Term(
+                                    FactorLiterals(
+                                      LiteralsChar(
+                                       'a'
+                                      ) [LiteralsChar]
+                                    ) [FactorLiterals]
+                                    TermListEpsilon(
+                                    ) [TermListEpsilon]
+                                  ) [Term]
+                                  ExprListEpsilon(
+                                  ) [ExprListEpsilon]
+                                ) [Expr]
+                              ) [DesignatorStatementOptAssign]
+                            ) [DesignatorStatementOpt1]
+                          ) [DesignatorSemiStatement]
+                        ) [StatementDesignator]
+                      ) [StatementLineRec]
+                      StatementDesignator(
+                        DesignatorSemiStatement(
+                          DesignatorStatementOpt1(
+                            DesignatorStatementOptAssign(
+                              Designator(
+                               nizch
+                                DesignatorListDesignator(
+                                  DesignatorListEpsilon(
+                                  ) [DesignatorListEpsilon]
+                                  Expr(
+                                    DashOptLambda(
+                                    ) [DashOptLambda]
+                                    Term(
+                                      FactorDesignator(
+                                        Designator(
+                                         jedan
+                                          DesignatorListEpsilon(
+                                          ) [DesignatorListEpsilon]
+                                        ) [Designator]
+                                        FactorDesignatorOptEpsilon(
+                                        ) [FactorDesignatorOptEpsilon]
+                                      ) [FactorDesignator]
+                                      TermListEpsilon(
+                                      ) [TermListEpsilon]
+                                    ) [Term]
+                                    ExprListEpsilon(
+                                    ) [ExprListEpsilon]
+                                  ) [Expr]
+                                ) [DesignatorListDesignator]
+                              ) [Designator]
+                              AssignOpNoErr(
+                              ) [AssignOpNoErr]
+                              Expr(
+                                DashOptLambda(
+                                ) [DashOptLambda]
+                                Term(
+                                  FactorLiterals(
+                                    LiteralsChar(
+                                     'b'
+                                    ) [LiteralsChar]
+                                  ) [FactorLiterals]
+                                  TermListEpsilon(
+                                  ) [TermListEpsilon]
+                                ) [Term]
+                                ExprListEpsilon(
+                                ) [ExprListEpsilon]
+                              ) [Expr]
+                            ) [DesignatorStatementOptAssign]
+                          ) [DesignatorStatementOpt1]
+                        ) [DesignatorSemiStatement]
+                      ) [StatementDesignator]
+                    ) [StatementLineRec]
+                    StatementDesignator(
+                      DesignatorSemiStatement(
+                        DesignatorStatementOpt1(
+                          DesignatorStatementOptAssign(
+                            Designator(
+                             nizch
+                              DesignatorListDesignator(
+                                DesignatorListEpsilon(
+                                ) [DesignatorListEpsilon]
+                                Expr(
+                                  DashOptLambda(
+                                  ) [DashOptLambda]
+                                  Term(
+                                    FactorDesignator(
+                                      Designator(
+                                       pet
+                                        DesignatorListEpsilon(
+                                        ) [DesignatorListEpsilon]
+                                      ) [Designator]
+                                      FactorDesignatorOptEpsilon(
+                                      ) [FactorDesignatorOptEpsilon]
+                                    ) [FactorDesignator]
+                                    TermListEpsilon(
+                                    ) [TermListEpsilon]
+                                  ) [Term]
+                                  ExprListSingle(
+                                    ExprListEpsilon(
+                                    ) [ExprListEpsilon]
+                                    AddOpMinus(
+                                    ) [AddOpMinus]
+                                    Term(
+                                      FactorLiterals(
+                                        LiteralsNum(
+                                         3
+                                        ) [LiteralsNum]
+                                      ) [FactorLiterals]
+                                      TermListEpsilon(
+                                      ) [TermListEpsilon]
+                                    ) [Term]
+                                  ) [ExprListSingle]
+                                ) [Expr]
+                              ) [DesignatorListDesignator]
+                            ) [Designator]
+                            AssignOpNoErr(
+                            ) [AssignOpNoErr]
+                            Expr(
+                              DashOptLambda(
+                              ) [DashOptLambda]
+                              Term(
+                                FactorLiterals(
+                                  LiteralsChar(
+                                   'c'
+                                  ) [LiteralsChar]
+                                ) [FactorLiterals]
+                                TermListEpsilon(
+                                ) [TermListEpsilon]
+                              ) [Term]
+                              ExprListEpsilon(
+                              ) [ExprListEpsilon]
+                            ) [Expr]
+                          ) [DesignatorStatementOptAssign]
+                        ) [DesignatorStatementOpt1]
+                      ) [DesignatorSemiStatement]
+                    ) [StatementDesignator]
+                  ) [StatementLineRec]
+                  StatementPrint(
+                    Expr(
+                      DashOptLambda(
+                      ) [DashOptLambda]
+                      Term(
+                        FactorDesignator(
+                          Designator(
+                           nizch
+                            DesignatorListDesignator(
+                              DesignatorListEpsilon(
+                              ) [DesignatorListEpsilon]
+                              Expr(
+                                DashOptLambda(
+                                ) [DashOptLambda]
+                                Term(
+                                  FactorLiterals(
+                                    LiteralsNum(
+                                     1
+                                    ) [LiteralsNum]
+                                  ) [FactorLiterals]
+                                  TermListEpsilon(
+                                  ) [TermListEpsilon]
+                                ) [Term]
+                                ExprListEpsilon(
+                                ) [ExprListEpsilon]
+                              ) [Expr]
+                            ) [DesignatorListDesignator]
+                          ) [Designator]
+                          FactorDesignatorOptEpsilon(
+                          ) [FactorDesignatorOptEpsilon]
+                        ) [FactorDesignator]
+                        TermListEpsilon(
+                        ) [TermListEpsilon]
+                      ) [Term]
+                      ExprListEpsilon(
+                      ) [ExprListEpsilon]
+                    ) [Expr]
+                    StatementPrintOptEpsilon(
+                    ) [StatementPrintOptEpsilon]
+                  ) [StatementPrint]
+                ) [StatementLineRec]
+                StatementPrint(
+                  Expr(
+                    DashOptLambda(
+                    ) [DashOptLambda]
+                    Term(
+                      FactorDesignator(
+                        Designator(
+                         nizch
+                          DesignatorListDesignator(
+                            DesignatorListEpsilon(
+                            ) [DesignatorListEpsilon]
+                            Expr(
+                              DashOptLambda(
+                              ) [DashOptLambda]
+                              Term(
+                                FactorDesignator(
+                                  Designator(
+                                   jedan
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                  ) [Designator]
+                                  FactorDesignatorOptEpsilon(
+                                  ) [FactorDesignatorOptEpsilon]
+                                ) [FactorDesignator]
+                                TermListRec(
+                                  TermListEpsilon(
+                                  ) [TermListEpsilon]
+                                  MulOpMul(
+                                  ) [MulOpMul]
+                                  FactorLiterals(
+                                    LiteralsNum(
+                                     2
+                                    ) [LiteralsNum]
+                                  ) [FactorLiterals]
+                                ) [TermListRec]
+                              ) [Term]
+                              ExprListEpsilon(
+                              ) [ExprListEpsilon]
+                            ) [Expr]
+                          ) [DesignatorListDesignator]
+                        ) [Designator]
+                        FactorDesignatorOptEpsilon(
+                        ) [FactorDesignatorOptEpsilon]
+                      ) [FactorDesignator]
+                      TermListEpsilon(
+                      ) [TermListEpsilon]
+                    ) [Term]
+                    ExprListEpsilon(
+                    ) [ExprListEpsilon]
+                  ) [Expr]
+                  StatementPrintOptEpsilon(
+                  ) [StatementPrintOptEpsilon]
+                ) [StatementPrint]
+              ) [StatementLineRec]
+              StatementDesignator(
+                DesignatorSemiStatement(
+                  DesignatorStatementOpt1(
+                    DesignatorStatementOptIncrement(
+                      Designator(
+                       mat
+                        DesignatorListDesignator(
+                          DesignatorListDesignator(
+                            DesignatorListEpsilon(
+                            ) [DesignatorListEpsilon]
+                            Expr(
+                              DashOptLambda(
+                              ) [DashOptLambda]
+                              Term(
+                                FactorLiterals(
+                                  LiteralsNum(
+                                   0
+                                  ) [LiteralsNum]
+                                ) [FactorLiterals]
+                                TermListEpsilon(
+                                ) [TermListEpsilon]
+                              ) [Term]
+                              ExprListEpsilon(
+                              ) [ExprListEpsilon]
+                            ) [Expr]
+                          ) [DesignatorListDesignator]
+                          Expr(
+                            DashOptLambda(
+                            ) [DashOptLambda]
+                            Term(
+                              FactorLiterals(
+                                LiteralsNum(
+                                 0
+                                ) [LiteralsNum]
+                              ) [FactorLiterals]
+                              TermListEpsilon(
+                              ) [TermListEpsilon]
+                            ) [Term]
+                            ExprListEpsilon(
+                            ) [ExprListEpsilon]
+                          ) [Expr]
+                        ) [DesignatorListDesignator]
+                      ) [Designator]
+                    ) [DesignatorStatementOptIncrement]
+                  ) [DesignatorStatementOpt1]
+                ) [DesignatorSemiStatement]
+              ) [StatementDesignator]
+            ) [StatementLineRec]
+            StatementDesignator(
+              DesignatorSemiStatement(
+                DesignatorStatementOpt1(
+                  DesignatorStatementOptDecrement(
+                    Designator(
+                     mat
+                      DesignatorListDesignator(
+                        DesignatorListDesignator(
+                          DesignatorListEpsilon(
+                          ) [DesignatorListEpsilon]
+                          Expr(
+                            DashOptLambda(
+                            ) [DashOptLambda]
+                            Term(
+                              FactorLiterals(
+                                LiteralsNum(
+                                 0
+                                ) [LiteralsNum]
+                              ) [FactorLiterals]
+                              TermListEpsilon(
+                              ) [TermListEpsilon]
+                            ) [Term]
+                            ExprListEpsilon(
+                            ) [ExprListEpsilon]
+                          ) [Expr]
+                        ) [DesignatorListDesignator]
+                        Expr(
+                          DashOptLambda(
+                          ) [DashOptLambda]
+                          Term(
+                            FactorLiterals(
+                              LiteralsNum(
+                               0
+                              ) [LiteralsNum]
+                            ) [FactorLiterals]
+                            TermListEpsilon(
+                            ) [TermListEpsilon]
+                          ) [Term]
+                          ExprListEpsilon(
+                          ) [ExprListEpsilon]
+                        ) [Expr]
+                      ) [DesignatorListDesignator]
+                    ) [Designator]
+                  ) [DesignatorStatementOptDecrement]
+                ) [DesignatorStatementOpt1]
+              ) [DesignatorSemiStatement]
+            ) [StatementDesignator]
+          ) [StatementLineRec]
+          StatementRead(
+            Designator(
+             bodovi
+              DesignatorListEpsilon(
+              ) [DesignatorListEpsilon]
+            ) [Designator]
+          ) [StatementRead]
+        ) [StatementLineRec]
+        StatementDesignator(
+          DesignatorSemiStatement(
+            DesignatorStatementOpt1(
+              DesignatorStatementOptAssign(
+                Designator(
+                 bodovi
+                  DesignatorListEpsilon(
+                  ) [DesignatorListEpsilon]
+                ) [Designator]
+                AssignOpNoErr(
+                ) [AssignOpNoErr]
+                Expr(
+                  DashOptSingle(
+                  ) [DashOptSingle]
+                  Term(
+                    FactorDesignator(
+                      Designator(
+                       bodovi
+                        DesignatorListEpsilon(
+                        ) [DesignatorListEpsilon]
+                      ) [Designator]
+                      FactorDesignatorOptEpsilon(
+                      ) [FactorDesignatorOptEpsilon]
+                    ) [FactorDesignator]
+                    TermListEpsilon(
+                    ) [TermListEpsilon]
+                  ) [Term]
+                  ExprListSingle(
+                    ExprListSingle(
+                      ExprListEpsilon(
+                      ) [ExprListEpsilon]
+                      AddOpPlus(
+                      ) [AddOpPlus]
+                      Term(
+                        FactorRec(
+                          Expr(
+                            DashOptLambda(
+                            ) [DashOptLambda]
+                            Term(
+                              FactorDesignator(
+                                Designator(
+                                 pet
+                                  DesignatorListEpsilon(
+                                  ) [DesignatorListEpsilon]
+                                ) [Designator]
+                                FactorDesignatorOptEpsilon(
+                                ) [FactorDesignatorOptEpsilon]
+                              ) [FactorDesignator]
+                              TermListRec(
+                                TermListRec(
+                                  TermListEpsilon(
+                                  ) [TermListEpsilon]
+                                  MulOpMul(
+                                  ) [MulOpMul]
+                                  FactorDesignator(
+                                    Designator(
+                                     a
+                                      DesignatorListEpsilon(
+                                      ) [DesignatorListEpsilon]
+                                    ) [Designator]
+                                    FactorDesignatorOptEpsilon(
+                                    ) [FactorDesignatorOptEpsilon]
+                                  ) [FactorDesignator]
+                                ) [TermListRec]
+                                MulOpDiv(
+                                ) [MulOpDiv]
+                                FactorLiterals(
+                                  LiteralsNum(
+                                   2
+                                  ) [LiteralsNum]
+                                ) [FactorLiterals]
+                              ) [TermListRec]
+                            ) [Term]
+                            ExprListSingle(
+                              ExprListEpsilon(
+                              ) [ExprListEpsilon]
+                              AddOpMinus(
+                              ) [AddOpMinus]
+                              Term(
+                                FactorDesignator(
+                                  Designator(
+                                   jedan
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                  ) [Designator]
+                                  FactorDesignatorOptEpsilon(
+                                  ) [FactorDesignatorOptEpsilon]
+                                ) [FactorDesignator]
+                                TermListEpsilon(
+                                ) [TermListEpsilon]
+                              ) [Term]
+                            ) [ExprListSingle]
+                          ) [Expr]
+                        ) [FactorRec]
+                        TermListRec(
+                          TermListEpsilon(
+                          ) [TermListEpsilon]
+                          MulOpMul(
+                          ) [MulOpMul]
+                          FactorDesignator(
+                            Designator(
+                             bodovi
+                              DesignatorListEpsilon(
+                              ) [DesignatorListEpsilon]
+                            ) [Designator]
+                            FactorDesignatorOptEpsilon(
+                            ) [FactorDesignatorOptEpsilon]
+                          ) [FactorDesignator]
+                        ) [TermListRec]
+                      ) [Term]
+                    ) [ExprListSingle]
+                    AddOpMinus(
+                    ) [AddOpMinus]
+                    Term(
+                      FactorRec(
+                        Expr(
+                          DashOptLambda(
+                          ) [DashOptLambda]
+                          Term(
+                            FactorLiterals(
+                              LiteralsNum(
+                               3
+                              ) [LiteralsNum]
+                            ) [FactorLiterals]
+                            TermListRec(
+                              TermListEpsilon(
+                              ) [TermListEpsilon]
+                              MulOpMod(
+                              ) [MulOpMod]
+                              FactorLiterals(
+                                LiteralsNum(
+                                 2
+                                ) [LiteralsNum]
+                              ) [FactorLiterals]
+                            ) [TermListRec]
+                          ) [Term]
+                          ExprListSingle(
+                            ExprListSingle(
+                              ExprListEpsilon(
+                              ) [ExprListEpsilon]
+                              AddOpPlus(
+                              ) [AddOpPlus]
+                              Term(
+                                FactorLiterals(
+                                  LiteralsNum(
+                                   3
+                                  ) [LiteralsNum]
+                                ) [FactorLiterals]
+                                TermListRec(
+                                  TermListEpsilon(
+                                  ) [TermListEpsilon]
+                                  MulOpMul(
+                                  ) [MulOpMul]
+                                  FactorLiterals(
+                                    LiteralsNum(
+                                     2
+                                    ) [LiteralsNum]
+                                  ) [FactorLiterals]
+                                ) [TermListRec]
+                              ) [Term]
+                            ) [ExprListSingle]
+                            AddOpMinus(
+                            ) [AddOpMinus]
+                            Term(
+                              FactorLiterals(
+                                LiteralsNum(
+                                 3
+                                ) [LiteralsNum]
+                              ) [FactorLiterals]
+                              TermListEpsilon(
+                              ) [TermListEpsilon]
+                            ) [Term]
+                          ) [ExprListSingle]
+                        ) [Expr]
+                      ) [FactorRec]
+                      TermListEpsilon(
+                      ) [TermListEpsilon]
+                    ) [Term]
+                  ) [ExprListSingle]
+                ) [Expr]
+              ) [DesignatorStatementOptAssign]
+            ) [DesignatorStatementOpt1]
+          ) [DesignatorSemiStatement]
+        ) [StatementDesignator]
+      ) [StatementLineRec]
+      StatementPrint(
+        Expr(
+          DashOptLambda(
+          ) [DashOptLambda]
+          Term(
+            FactorDesignator(
+              Designator(
+               bodovi
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+              ) [Designator]
+              FactorDesignatorOptEpsilon(
+              ) [FactorDesignatorOptEpsilon]
+            ) [FactorDesignator]
+            TermListEpsilon(
+            ) [TermListEpsilon]
+          ) [Term]
+          ExprListEpsilon(
+          ) [ExprListEpsilon]
+        ) [Expr]
+        StatementPrintOptEpsilon(
+        ) [StatementPrintOptEpsilon]
+      ) [StatementPrint]
+    ) [StatementLineRec]
+  ) [MethodDecl]
+) [Program]
+INFO  20:20:41,280 - ===================================
+INFO  20:20:41,293 - ===================================
+INFO  20:20:41,302 - Parsiranje uspesno zavrseno!
